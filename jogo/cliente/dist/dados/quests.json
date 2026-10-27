@@ -1,0 +1,308 @@
+[
+  {
+    "id": "humano_caca_01",
+    "nome": "Caça em Vale dos Campos",
+    "continente": "humano",
+    "npc": "npc_humano_guia",
+    "tipo": "caca",
+    "zona": "vale_campos",
+    "alvo": "constructo_palha",
+    "quantidade": 10,
+    "nivel_minimo": 1,
+    "recompensa_mc": 30,
+    "dialogos": {
+      "inicio": "Os Constructo de Palhas estão tomando Vale dos Campos. Elimine 10 deles e volte.",
+      "andamento": "Ainda restam criaturas por lá.",
+      "entrega": "Bom trabalho. Aqui está sua recompensa."
+    }
+  },
+  {
+    "id": "humano_coleta_01",
+    "nome": "Coleta em Planície dos Ventos",
+    "continente": "humano",
+    "npc": "npc_humano_guia",
+    "tipo": "plantio",
+    "zona": "planicie_ventos",
+    "alvo": "fibra_palha",
+    "quantidade": 5,
+    "nivel_minimo": 6,
+    "recompensa_mc": 20,
+    "dialogos": {
+      "inicio": "Preciso de 5 unidades de fibra palha. Procure em Planície dos Ventos.",
+      "andamento": "Continue coletando.",
+      "entrega": "Ótimo. Isso vai ajudar muito."
+    }
+  },
+  {
+    "id": "humano_masmorra_01",
+    "nome": "Chefe de Cripta Humana",
+    "continente": "humano",
+    "npc": "npc_humano_guia",
+    "tipo": "masmorra",
+    "zona": "cripta_humana",
+    "alvo": "colosso_argila",
+    "quantidade": 1,
+    "nivel_minimo": 10,
+    "recompensa_mc": 120,
+    "dialogos": {
+      "inicio": "Colosso de Argila domina Cripta Humana. Derrote-o e traga a prova.",
+      "andamento": "A masmorra ainda não foi limpa.",
+      "entrega": "Você venceu. Essa região está mais segura."
+    }
+  },
+  {
+    "id": "elfico_caca_01",
+    "nome": "Caça em Bosque do Luar",
+    "continente": "elfico",
+    "npc": "npc_elfico_guia",
+    "tipo": "caca",
+    "zona": "bosque_luar",
+    "alvo": "cervo_espectral",
+    "quantidade": 10,
+    "nivel_minimo": 14,
+    "recompensa_mc": 60,
+    "dialogos": {
+      "inicio": "Os Cervo Espectrals estão tomando Bosque do Luar. Elimine 10 deles e volte.",
+      "andamento": "Ainda restam criaturas por lá.",
+      "entrega": "Bom trabalho. Aqui está sua recompensa."
+    }
+  },
+  {
+    "id": "elfico_coleta_01",
+    "nome": "Coleta em Vale dos Galhos",
+    "continente": "elfico",
+    "npc": "npc_elfico_guia",
+    "tipo": "pesca",
+    "zona": "vale_galhos",
+    "alvo": "peixe_lunar",
+    "quantidade": 5,
+    "nivel_minimo": 20,
+    "recompensa_mc": 40,
+    "dialogos": {
+      "inicio": "Preciso de 5 unidades de peixe lunar. Procure em Vale dos Galhos.",
+      "andamento": "Continue coletando.",
+      "entrega": "Ótimo. Isso vai ajudar muito."
+    }
+  },
+  {
+    "id": "elfico_masmorra_01",
+    "nome": "Chefe de Árvore Sílfide",
+    "continente": "elfico",
+    "npc": "npc_elfico_guia",
+    "tipo": "masmorra",
+    "zona": "arvore_silfide",
+    "alvo": "rainha_silfide",
+    "quantidade": 1,
+    "nivel_minimo": 22,
+    "recompensa_mc": 240,
+    "dialogos": {
+      "inicio": "Rainha Sílfide domina Árvore Sílfide. Derrote-o e traga a prova.",
+      "andamento": "A masmorra ainda não foi limpa.",
+      "entrega": "Você venceu. Essa região está mais segura."
+    }
+  },
+  {
+    "id": "anao_caca_01",
+    "nome": "Caça em Mina Superior",
+    "continente": "anao",
+    "npc": "npc_anao_guia",
+    "tipo": "caca",
+    "zona": "mina_superior",
+    "alvo": "gnomo_minerio",
+    "quantidade": 10,
+    "nivel_minimo": 24,
+    "recompensa_mc": 90,
+    "dialogos": {
+      "inicio": "Os Gnomo de Minérios estão tomando Mina Superior. Elimine 10 deles e volte.",
+      "andamento": "Ainda restam criaturas por lá.",
+      "entrega": "Bom trabalho. Aqui está sua recompensa."
+    }
+  },
+  {
+    "id": "anao_coleta_01",
+    "nome": "Coleta em Mina Profunda",
+    "continente": "anao",
+    "npc": "npc_anao_guia",
+    "tipo": "mineracao",
+    "zona": "mina_profunda",
+    "alvo": "minerio_cobre",
+    "quantidade": 5,
+    "nivel_minimo": 30,
+    "recompensa_mc": 60,
+    "dialogos": {
+      "inicio": "Preciso de 5 unidades de minerio cobre. Procure em Mina Profunda.",
+      "andamento": "Continue coletando.",
+      "entrega": "Ótimo. Isso vai ajudar muito."
+    }
+  },
+  {
+    "id": "anao_masmorra_01",
+    "nome": "Chefe de Forja Antiga",
+    "continente": "anao",
+    "npc": "npc_anao_guia",
+    "tipo": "masmorra",
+    "zona": "forja_antiga",
+    "alvo": "forjador_rochoso",
+    "quantidade": 1,
+    "nivel_minimo": 34,
+    "recompensa_mc": 360,
+    "dialogos": {
+      "inicio": "Forjador Rochoso domina Forja Antiga. Derrote-o e traga a prova.",
+      "andamento": "A masmorra ainda não foi limpa.",
+      "entrega": "Você venceu. Essa região está mais segura."
+    }
+  },
+  {
+    "id": "driade_caca_01",
+    "nome": "Caça em Bosque Vivo",
+    "continente": "driade",
+    "npc": "npc_driade_guia",
+    "tipo": "caca",
+    "zona": "bosque_vivo",
+    "alvo": "brotoide",
+    "quantidade": 10,
+    "nivel_minimo": 30,
+    "recompensa_mc": 120,
+    "dialogos": {
+      "inicio": "Os Brotoides estão tomando Bosque Vivo. Elimine 10 deles e volte.",
+      "andamento": "Ainda restam criaturas por lá.",
+      "entrega": "Bom trabalho. Aqui está sua recompensa."
+    }
+  },
+  {
+    "id": "driade_coleta_01",
+    "nome": "Coleta em Pântano dos Sussurros",
+    "continente": "driade",
+    "npc": "npc_driade_guia",
+    "tipo": "plantio",
+    "zona": "pantano_sussurro",
+    "alvo": "seiva_viva",
+    "quantidade": 5,
+    "nivel_minimo": 34,
+    "recompensa_mc": 80,
+    "dialogos": {
+      "inicio": "Preciso de 5 unidades de seiva viva. Procure em Pântano dos Sussurros.",
+      "andamento": "Continue coletando.",
+      "entrega": "Ótimo. Isso vai ajudar muito."
+    }
+  },
+  {
+    "id": "driade_masmorra_01",
+    "nome": "Chefe de Raízes Profundas",
+    "continente": "driade",
+    "npc": "npc_driade_guia",
+    "tipo": "masmorra",
+    "zona": "raizes_profundas",
+    "alvo": "mae_floresta",
+    "quantidade": 1,
+    "nivel_minimo": 38,
+    "recompensa_mc": 480,
+    "dialogos": {
+      "inicio": "Mãe da Floresta domina Raízes Profundas. Derrote-o e traga a prova.",
+      "andamento": "A masmorra ainda não foi limpa.",
+      "entrega": "Você venceu. Essa região está mais segura."
+    }
+  },
+  {
+    "id": "gelo_caca_01",
+    "nome": "Caça em Planície Gelada",
+    "continente": "gelo",
+    "npc": "npc_gelo_guia",
+    "tipo": "caca",
+    "zona": "planicie_gelada",
+    "alvo": "gelido_menor",
+    "quantidade": 10,
+    "nivel_minimo": 38,
+    "recompensa_mc": 150,
+    "dialogos": {
+      "inicio": "Os Gélido Menors estão tomando Planície Gelada. Elimine 10 deles e volte.",
+      "andamento": "Ainda restam criaturas por lá.",
+      "entrega": "Bom trabalho. Aqui está sua recompensa."
+    }
+  },
+  {
+    "id": "gelo_coleta_01",
+    "nome": "Coleta em Geleira Azul",
+    "continente": "gelo",
+    "npc": "npc_gelo_guia",
+    "tipo": "pesca",
+    "zona": "geleira_azul",
+    "alvo": "peixe_gelido",
+    "quantidade": 5,
+    "nivel_minimo": 42,
+    "recompensa_mc": 100,
+    "dialogos": {
+      "inicio": "Preciso de 5 unidades de peixe gelido. Procure em Geleira Azul.",
+      "andamento": "Continue coletando.",
+      "entrega": "Ótimo. Isso vai ajudar muito."
+    }
+  },
+  {
+    "id": "gelo_masmorra_01",
+    "nome": "Chefe de Fortaleza de Gelo",
+    "continente": "gelo",
+    "npc": "npc_gelo_guia",
+    "tipo": "masmorra",
+    "zona": "fortaleza_gelo",
+    "alvo": "tirano_gelo",
+    "quantidade": 1,
+    "nivel_minimo": 46,
+    "recompensa_mc": 600,
+    "dialogos": {
+      "inicio": "Tirano de Gelo domina Fortaleza de Gelo. Derrote-o e traga a prova.",
+      "andamento": "A masmorra ainda não foi limpa.",
+      "entrega": "Você venceu. Essa região está mais segura."
+    }
+  },
+  {
+    "id": "demoniaco_caca_01",
+    "nome": "Caça em Cinzas Vermelhas",
+    "continente": "demoniaco",
+    "npc": "npc_demoniaco_guia",
+    "tipo": "caca",
+    "zona": "cinzas_vermelhas",
+    "alvo": "ignis_lacaio",
+    "quantidade": 10,
+    "nivel_minimo": 44,
+    "recompensa_mc": 180,
+    "dialogos": {
+      "inicio": "Os Ígneo Lacaios estão tomando Cinzas Vermelhas. Elimine 10 deles e volte.",
+      "andamento": "Ainda restam criaturas por lá.",
+      "entrega": "Bom trabalho. Aqui está sua recompensa."
+    }
+  },
+  {
+    "id": "demoniaco_coleta_01",
+    "nome": "Coleta em Abismo Negro",
+    "continente": "demoniaco",
+    "npc": "npc_demoniaco_guia",
+    "tipo": "mineracao",
+    "zona": "abismo_negro",
+    "alvo": "brasa_abissal",
+    "quantidade": 5,
+    "nivel_minimo": 46,
+    "recompensa_mc": 120,
+    "dialogos": {
+      "inicio": "Preciso de 5 unidades de brasa abissal. Procure em Abismo Negro.",
+      "andamento": "Continue coletando.",
+      "entrega": "Ótimo. Isso vai ajudar muito."
+    }
+  },
+  {
+    "id": "demoniaco_masmorra_01",
+    "nome": "Chefe de Trono do Abismo",
+    "continente": "demoniaco",
+    "npc": "npc_demoniaco_guia",
+    "tipo": "masmorra",
+    "zona": "trono_abismo",
+    "alvo": "senhor_abismo",
+    "quantidade": 1,
+    "nivel_minimo": 48,
+    "recompensa_mc": 720,
+    "dialogos": {
+      "inicio": "Senhor do Abismo domina Trono do Abismo. Derrote-o e traga a prova.",
+      "andamento": "A masmorra ainda não foi limpa.",
+      "entrega": "Você venceu. Essa região está mais segura."
+    }
+  }
+]

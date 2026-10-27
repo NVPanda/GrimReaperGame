@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self' ws: wss:; img-src 'self' data:; object-src 'none'">
+  <title>GrimReap — mundo</title>
+  <link rel="stylesheet" href="./theme.css">
+  <script src="./runtime-config.js"></script>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #14161c; color: #eee; }
+    body { margin: 0; }
+    header { padding: 10px 16px; background: #1d2029; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+    header a { color: #9cc2ff; }
+    main { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 16px; padding: 16px; align-items: start; }
+    canvas { background: #000; image-rendering: pixelated; max-width: 100%; height: auto; border: 1px solid #333; }
+    aside { display: flex; flex-direction: column; gap: 12px; }
+    .painel { background: #1d2029; border-radius: 8px; padding: 12px; }
+    .painel h2, .painel h3 { margin: 0 0 8px; font-size: 16px; }
+    .card { background: #14161c; border-radius: 6px; padding: 10px; margin-bottom: 8px; display: flex; flex-direction: column; gap: 4px; }
+    .card h3 { margin: 0; font-size: 15px; }
+    .tipo { font-size: 11px; color: #9aa3b2; text-transform: uppercase; }
+    .preco { color: #f5c542; font-weight: 700; }
+    button, select, input { box-sizing: border-box; width: 100%; padding: 8px; border: 1px solid #414653; border-radius: 6px; background: #111319; color: #eee; font: inherit; }
+    button { border: 0; background: #3b82f6; font-weight: 600; cursor: pointer; }
+    button:disabled { opacity: .55; cursor: not-allowed; }
+    .linha-formulario { display: flex; gap: 6px; margin: 8px 0; }
+    .linha-formulario button { width: auto; white-space: nowrap; }
+    #membros-clan { max-height: 180px; overflow-y: auto; margin: 8px 0; }
+    #membros-clan label { display: flex; gap: 8px; align-items: center; padding: 4px 0; }
+    #membros-clan input { width: auto; }
+    ul { margin: 0; padding-left: 18px; }
+    small { color: #aab1bf; }
+    #aviso-jogo { min-height: 1.5em; padding: 0 16px; color: #ffd46b; }
+    #aviso-pk { position: fixed; z-index: 5; top: 74px; left: 16px; max-width: min(520px, calc(100vw - 32px)); padding: 10px 14px; border: 1px solid #ff6678; border-radius: 8px; background: rgba(75, 13, 25, .92); color: #fff0f2; font-weight: 700; pointer-events: none; }
+    @media (max-width: 900px) { main { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>GrimReap</strong>
+    <span id="localizacao-jogador">Carregando localização…</span>
+    <span id="identidade-jogador"></span>
+    <span id="estado-plataforma" aria-live="polite" hidden></span>
+    <span>Saldo: <strong id="saldo-mc">0 MC</strong></span>
+    <a href="/personagens.html">Trocar personagem</a>
+    <a href="/mapa-mundi.html">Mapa do Reino</a>
+    <button id="abrir-loja" type="button" style="width:auto">Loja</button>
+  </header>
+  <main>
+    <canvas id="mundo" width="1280" height="960" aria-label="Mapa do jogo"></canvas>
+    <aside>
+      <section class="painel">
+        <h2>NPC Save</h2>
+        <p id="estado-save">Salve em uma cidade para definir seu próximo respawn.</p>
+        <button id="salvar-ponto" type="button" disabled>Salvar respawn nesta cidade</button>
+      </section>
+      <section class="painel">
+        <h2>NPC Teleporte</h2>
+        <label for="destino">Destino no mapa do Reino</label>
+        <select id="destino" disabled></select>
+        <p id="tarifa-teleporte">Viaje entre cidades, regiões e masmorras.</p>
+        <button id="teletransportar" type="button" disabled>Viajar</button>
+      </section>
+      <section class="painel" id="monstro">Clique em um monstro para ver informações.</section>
+      <section class="painel" id="boss-mundi" hidden>
+        <h2>Miniboss regional</h2>
+        <p id="estado-boss-mundi"></p>
+        <button id="atacar-boss-mundi" type="button" disabled>Atacar miniboss</button>
+      </section>
+      <section class="painel" id="progresso">
+        <h2>Progresso</h2>
+        <p>Carregando nível e inventário…</p>
+      </section>
+      <section class="painel" id="painel-clan">
+        <h2>Clã e raid SS</h2>
+        <div id="formulario-clan">
+          <label for="nome-clan">Criar clã</label>
+          <div class="linha-formulario">
+            <input id="nome-clan" maxlength="24" minlength="3" placeholder="Nome (3–24 caracteres)">
+            <button id="criar-clan" type="button">Criar</button>
+          </div>
+          <label for="convite-clan">Ou entrar com convite</label>
+          <div class="linha-formulario">
+            <input id="convite-clan" maxlength="10" placeholder="Código do convite">
+            <button id="entrar-clan" type="button">Entrar</button>
+          </div>
+        </div>
+        <p id="estado-clan">Carregando clã…</p>
+        <div id="membros-clan"></div>
+        <button id="iniciar-raid" type="button" disabled>Iniciar raid (10 membros e insígnia SS)</button>
+        <p id="estado-raid">Nenhuma raid ativa.</p>
+        <button id="atacar-chefe" type="button" disabled hidden>Atacar chefe da raid</button>
+        <button id="abandonar-raid" type="button" disabled hidden>Abandonar e encerrar a raid</button>
+      </section>
+      <section class="painel" id="painel-pk" hidden>
+        <h2>Combate PK</h2>
+        <label for="alvo-pk">Jogador na área PK</label>
+        <select id="alvo-pk"></select>
+        <button id="atacar-pk" type="button" disabled>Atacar jogador</button>
+        <button id="saquear-pk" type="button" hidden>Recolher equipamento saqueado</button>
+      </section>
+      <section class="painel" id="mercador" hidden>
+        <h2>Mercador</h2>
+        <label for="item-venda">Vender materiais do inventário</label>
+        <select id="item-venda"></select>
+        <label for="quantidade-venda">Quantidade</label>
+        <input id="quantidade-venda" type="number" min="1" max="99" value="1">
+        <button id="vender-item" type="button">Vender</button>
+      </section>
+      <section class="painel" id="loja" hidden></section>
+      <small>Setas: andar · Aproxime-se do NPC marcado no mapa para salvar ou viajar.</small>
+    </aside>
+  </main>
+  <div id="aviso-pk" role="status" aria-live="polite" hidden></div>
+  <p id="aviso-jogo" role="status" aria-live="polite"></p>
+  <script type="module" src="./jogo.js"></script>
+</body>
+</html>

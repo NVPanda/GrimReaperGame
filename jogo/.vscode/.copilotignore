@@ -1,0 +1,10 @@
+node_modules/
+dist/
+build/
+assets/bakin_pixelart/
+*.png
+*.jpg
+*.mp3
+*.ogg
+*.wav
+package-lock.json

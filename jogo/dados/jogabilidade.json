@@ -1,0 +1,323 @@
+{
+  "nivel_maximo": 50,
+  "bosses_mundi": {
+    "intervalo_spawn_segundos": 3600,
+    "retorno_apos_derrota_segundos": 18000,
+    "vida": 3000,
+    "regioes": [
+      {
+        "id": "guardiao_raizes",
+        "nome": "Guardião das Raízes",
+        "zona_id": "vale_campos",
+        "centro": [
+          13,
+          13
+        ],
+        "raio": 5,
+        "cor": "#54b879",
+        "forma": "planta"
+      },
+      {
+        "id": "mariposa_lunar",
+        "nome": "Mariposa Lunar",
+        "zona_id": "bosque_luar",
+        "centro": [
+          25,
+          12
+        ],
+        "raio": 5,
+        "cor": "#bb86f2",
+        "forma": "blob"
+      },
+      {
+        "id": "sentinela_ferro",
+        "nome": "Sentinela de Ferro",
+        "zona_id": "mina_superior",
+        "centro": [
+          14,
+          20
+        ],
+        "raio": 5,
+        "cor": "#9da7a2",
+        "forma": "retangulo"
+      },
+      {
+        "id": "oraculo_brejo",
+        "nome": "Oráculo do Brejo",
+        "zona_id": "bosque_vivo",
+        "centro": [
+          24,
+          16
+        ],
+        "raio": 5,
+        "cor": "#51a9a1",
+        "forma": "orbe"
+      },
+      {
+        "id": "urso_geada",
+        "nome": "Urso da Geada Azul",
+        "zona_id": "planicie_gelada",
+        "centro": [
+          17,
+          13
+        ],
+        "raio": 5,
+        "cor": "#78c9eb",
+        "forma": "blob"
+      },
+      {
+        "id": "draco_cinzas",
+        "nome": "Draco das Cinzas",
+        "zona_id": "cinzas_vermelhas",
+        "centro": [
+          21,
+          17
+        ],
+        "raio": 5,
+        "cor": "#e76b45",
+        "forma": "triangulo"
+      }
+    ]
+  },
+  "pk": {
+    "aviso_entrada": true,
+    "dano_fora_da_area": "bloquear_e_registrar",
+    "chance_drop_equipamento_pct": 5,
+    "tempo_saque_segundos": 30,
+    "tempo_saque_com_lag_segundos": 60,
+    "pesos_rank_drop": {
+      "F": 40,
+      "E": 25,
+      "D": 12,
+      "C": 6,
+      "B": 2.5,
+      "A": 1,
+      "S": 0.2,
+      "SS": 0.5
+    }
+  },
+  "raid_ss": {
+    "zona_id": "trono_abismo",
+    "item_acesso": "insignia_cla_ss",
+    "membros_obrigatorios": 10,
+    "consumir_chave_ao_iniciar": true,
+    "reembolsar_ao_abortar": false,
+    "bonus_nivel_chefe": 10,
+    "andar_chefe_final": 50
+  },
+  "masmorras": [
+    {
+      "id": "cripta_humana",
+      "grau": "A",
+      "circulo_pk": {
+        "centro": [
+          20,
+          15
+        ],
+        "raio": 8
+      },
+      "andares": [
+        {
+          "nivel": 10,
+          "miniboss_id": "colosso_argila",
+          "chave_drop_pct": 0.1
+        },
+        {
+          "nivel": 20,
+          "miniboss_id": "colosso_argila",
+          "chave_drop_pct": 0.1
+        },
+        {
+          "nivel": 30,
+          "miniboss_id": "colosso_argila",
+          "chave_drop_pct": 0.1
+        },
+        {
+          "nivel": 40,
+          "miniboss_id": "colosso_argila",
+          "chave_drop_pct": 0.1
+        },
+        {
+          "nivel": 50,
+          "miniboss_id": "colosso_argila",
+          "chave_drop_pct": 0.1
+        }
+      ]
+    },
+    {
+      "id": "arvore_silfide",
+      "grau": "A",
+      "circulo_pk": {
+        "centro": [
+          20,
+          15
+        ],
+        "raio": 8
+      },
+      "andares": [
+        {
+          "nivel": 10,
+          "miniboss_id": "rainha_silfide",
+          "chave_drop_pct": 0.1
+        },
+        {
+          "nivel": 20,
+          "miniboss_id": "rainha_silfide",
+          "chave_drop_pct": 0.1
+        },
+        {
+          "nivel": 30,
+          "miniboss_id": "rainha_silfide",
+          "chave_drop_pct": 0.1
+        },
+        {
+          "nivel": 40,
+          "miniboss_id": "rainha_silfide",
+          "chave_drop_pct": 0.1
+        },
+        {
+          "nivel": 50,
+          "miniboss_id": "rainha_silfide",
+          "chave_drop_pct": 0.1
+        }
+      ]
+    },
+    {
+      "id": "forja_antiga",
+      "grau": "A",
+      "circulo_pk": {
+        "centro": [
+          20,
+          15
+        ],
+        "raio": 8
+      },
+      "andares": [
+        {
+          "nivel": 10,
+          "miniboss_id": "forjador_rochoso",
+          "chave_drop_pct": 0.1
+        },
+        {
+          "nivel": 20,
+          "miniboss_id": "forjador_rochoso",
+          "chave_drop_pct": 0.1
+        },
+        {
+          "nivel": 30,
+          "miniboss_id": "forjador_rochoso",
+          "chave_drop_pct": 0.1
+        },
+        {
+          "nivel": 40,
+          "miniboss_id": "forjador_rochoso",
+          "chave_drop_pct": 0.1
+        },
+        {
+          "nivel": 50,
+          "miniboss_id": "forjador_rochoso",
+          "chave_drop_pct": 0.1
+        }
+      ]
+    },
+    {
+      "id": "raizes_profundas",
+      "grau": "A",
+      "circulo_pk": {
+        "centro": [
+          20,
+          15
+        ],
+        "raio": 8
+      },
+      "andares": [
+        {
+          "nivel": 10,
+          "miniboss_id": "mae_floresta",
+          "chave_drop_pct": 0.1
+        },
+        {
+          "nivel": 20,
+          "miniboss_id": "mae_floresta",
+          "chave_drop_pct": 0.1
+        },
+        {
+          "nivel": 30,
+          "miniboss_id": "mae_floresta",
+          "chave_drop_pct": 0.1
+        },
+        {
+          "nivel": 40,
+          "miniboss_id": "mae_floresta",
+          "chave_drop_pct": 0.1
+        },
+        {
+          "nivel": 50,
+          "miniboss_id": "mae_floresta",
+          "chave_drop_pct": 0.1
+        }
+      ]
+    },
+    {
+      "id": "fortaleza_gelo",
+      "grau": "A",
+      "circulo_pk": {
+        "centro": [
+          20,
+          15
+        ],
+        "raio": 8
+      },
+      "andares": [
+        {
+          "nivel": 10,
+          "miniboss_id": "tirano_gelo",
+          "chave_drop_pct": 0.1
+        },
+        {
+          "nivel": 20,
+          "miniboss_id": "tirano_gelo",
+          "chave_drop_pct": 0.1
+        },
+        {
+          "nivel": 30,
+          "miniboss_id": "tirano_gelo",
+          "chave_drop_pct": 0.1
+        },
+        {
+          "nivel": 40,
+          "miniboss_id": "tirano_gelo",
+          "chave_drop_pct": 0.1
+        },
+        {
+          "nivel": 50,
+          "miniboss_id": "tirano_gelo",
+          "chave_drop_pct": 0.1
+        }
+      ]
+    },
+    {
+      "id": "trono_abismo",
+      "grau": "SS",
+      "circulo_pk": {
+        "centro": [
+          20,
+          15
+        ],
+        "raio": 8
+      },
+      "andares": []
+    }
+  ],
+  "loot": {
+    "categorias": [
+      "basicos",
+      "intermediarios",
+      "ranqueados",
+      "ultra_raros",
+      "ranqueados_ultra_raros"
+    ],
+    "grupo_maximo": 10,
+    "drop_chave_miniboss_pct": 0.1
+  }
+}

@@ -1,0 +1,364 @@
+[
+  {
+    "id": "vila_central",
+    "nome": "Aurivela",
+    "cont": "humano",
+    "tipo": "cidade",
+    "nivel": [
+      1,
+      18
+    ],
+    "monstros": [],
+    "npcs": [
+      "npc_humano_mercador",
+      "npc_humano_guia",
+      "npc_humano_ferreiro"
+    ]
+  },
+  {
+    "id": "vale_campos",
+    "nome": "Vale dos Campos",
+    "cont": "humano",
+    "tipo": "campo",
+    "nivel": [
+      1,
+      8
+    ],
+    "monstros": [
+      "constructo_palha",
+      "lobo_planicie"
+    ],
+    "npcs": []
+  },
+  {
+    "id": "planicie_ventos",
+    "nome": "Planície dos Ventos",
+    "cont": "humano",
+    "tipo": "campo",
+    "nivel": [
+      6,
+      14
+    ],
+    "monstros": [
+      "espantalho_vivo"
+    ],
+    "npcs": []
+  },
+  {
+    "id": "cripta_humana",
+    "nome": "Cripta Humana",
+    "cont": "humano",
+    "tipo": "masmorra",
+    "nivel": [
+      10,
+      18
+    ],
+    "monstros": [
+      "espantalho_vivo",
+      "colosso_argila"
+    ],
+    "npcs": []
+  },
+  {
+    "id": "clareira_sagrada",
+    "nome": "Nácaris",
+    "cont": "elfico",
+    "tipo": "cidade",
+    "nivel": [
+      14,
+      30
+    ],
+    "monstros": [],
+    "npcs": [
+      "npc_elfico_mercador",
+      "npc_elfico_guia",
+      "npc_elfico_ferreiro"
+    ]
+  },
+  {
+    "id": "bosque_luar",
+    "nome": "Bosque do Luar",
+    "cont": "elfico",
+    "tipo": "campo",
+    "nivel": [
+      14,
+      22
+    ],
+    "monstros": [
+      "cervo_espectral",
+      "sprite_lunar"
+    ],
+    "npcs": []
+  },
+  {
+    "id": "vale_galhos",
+    "nome": "Vale dos Galhos",
+    "cont": "elfico",
+    "tipo": "campo",
+    "nivel": [
+      20,
+      28
+    ],
+    "monstros": [
+      "guardiao_galhos"
+    ],
+    "npcs": []
+  },
+  {
+    "id": "arvore_silfide",
+    "nome": "Árvore Sílfide",
+    "cont": "elfico",
+    "tipo": "masmorra",
+    "nivel": [
+      22,
+      30
+    ],
+    "monstros": [
+      "guardiao_galhos",
+      "rainha_silfide"
+    ],
+    "npcs": []
+  },
+  {
+    "id": "forja_profunda",
+    "nome": "Korvurna",
+    "cont": "anao",
+    "tipo": "cidade",
+    "nivel": [
+      24,
+      38
+    ],
+    "monstros": [],
+    "npcs": [
+      "npc_anao_mercador",
+      "npc_anao_guia",
+      "npc_anao_ferreiro"
+    ]
+  },
+  {
+    "id": "mina_superior",
+    "nome": "Mina Superior",
+    "cont": "anao",
+    "tipo": "campo",
+    "nivel": [
+      24,
+      30
+    ],
+    "monstros": [
+      "gnomo_minerio",
+      "golem_cobre"
+    ],
+    "npcs": []
+  },
+  {
+    "id": "mina_profunda",
+    "nome": "Mina Profunda",
+    "cont": "anao",
+    "tipo": "campo",
+    "nivel": [
+      30,
+      36
+    ],
+    "monstros": [
+      "verme_pedra"
+    ],
+    "npcs": []
+  },
+  {
+    "id": "forja_antiga",
+    "nome": "Forja Antiga",
+    "cont": "anao",
+    "tipo": "masmorra",
+    "nivel": [
+      34,
+      38
+    ],
+    "monstros": [
+      "forjador_rochoso"
+    ],
+    "npcs": []
+  },
+  {
+    "id": "abrigo_raizes",
+    "nome": "Nascenraiz",
+    "cont": "driade",
+    "tipo": "cidade",
+    "nivel": [
+      30,
+      44
+    ],
+    "monstros": [],
+    "npcs": [
+      "npc_driade_mercador",
+      "npc_driade_guia",
+      "npc_driade_ferreiro"
+    ]
+  },
+  {
+    "id": "bosque_vivo",
+    "nome": "Bosque Vivo",
+    "cont": "driade",
+    "tipo": "campo",
+    "nivel": [
+      30,
+      36
+    ],
+    "monstros": [
+      "brotoide",
+      "fungo_errante"
+    ],
+    "npcs": []
+  },
+  {
+    "id": "pantano_sussurro",
+    "nome": "Pântano dos Sussurros",
+    "cont": "driade",
+    "tipo": "campo",
+    "nivel": [
+      34,
+      40
+    ],
+    "monstros": [
+      "fungo_errante",
+      "arvore_abrigo"
+    ],
+    "npcs": []
+  },
+  {
+    "id": "raizes_profundas",
+    "nome": "Raízes Profundas",
+    "cont": "driade",
+    "tipo": "masmorra",
+    "nivel": [
+      38,
+      44
+    ],
+    "monstros": [
+      "arvore_abrigo",
+      "mae_floresta"
+    ],
+    "npcs": []
+  },
+  {
+    "id": "posto_norte",
+    "nome": "Nívoria",
+    "cont": "gelo",
+    "tipo": "cidade",
+    "nivel": [
+      38,
+      50
+    ],
+    "monstros": [],
+    "npcs": [
+      "npc_gelo_mercador",
+      "npc_gelo_guia",
+      "npc_gelo_ferreiro"
+    ]
+  },
+  {
+    "id": "planicie_gelada",
+    "nome": "Planície Gelada",
+    "cont": "gelo",
+    "tipo": "campo",
+    "nivel": [
+      38,
+      44
+    ],
+    "monstros": [
+      "gelido_menor",
+      "lobo_gelo"
+    ],
+    "npcs": []
+  },
+  {
+    "id": "geleira_azul",
+    "nome": "Geleira Azul",
+    "cont": "gelo",
+    "tipo": "campo",
+    "nivel": [
+      42,
+      48
+    ],
+    "monstros": [
+      "lobo_gelo",
+      "espirito_nevasca"
+    ],
+    "npcs": []
+  },
+  {
+    "id": "fortaleza_gelo",
+    "nome": "Fortaleza de Gelo",
+    "cont": "gelo",
+    "tipo": "masmorra",
+    "nivel": [
+      46,
+      50
+    ],
+    "monstros": [
+      "espirito_nevasca",
+      "tirano_gelo"
+    ],
+    "npcs": []
+  },
+  {
+    "id": "portao_brasa",
+    "nome": "Braseal",
+    "cont": "demoniaco",
+    "tipo": "cidade",
+    "nivel": [
+      44,
+      50
+    ],
+    "monstros": [],
+    "npcs": [
+      "npc_demoniaco_mercador",
+      "npc_demoniaco_guia",
+      "npc_demoniaco_ferreiro"
+    ]
+  },
+  {
+    "id": "cinzas_vermelhas",
+    "nome": "Cinzas Vermelhas",
+    "cont": "demoniaco",
+    "tipo": "campo",
+    "nivel": [
+      44,
+      47
+    ],
+    "monstros": [
+      "ignis_lacaio",
+      "abissal_cacador"
+    ],
+    "npcs": []
+  },
+  {
+    "id": "abismo_negro",
+    "nome": "Abismo Negro",
+    "cont": "demoniaco",
+    "tipo": "campo",
+    "nivel": [
+      46,
+      49
+    ],
+    "monstros": [
+      "abissal_cacador",
+      "demonio_cinzas"
+    ],
+    "npcs": []
+  },
+  {
+    "id": "trono_abismo",
+    "nome": "Trono do Abismo",
+    "cont": "demoniaco",
+    "tipo": "masmorra",
+    "nivel": [
+      48,
+      50
+    ],
+    "monstros": [
+      "demonio_cinzas",
+      "senhor_abismo"
+    ],
+    "npcs": []
+  }
+]

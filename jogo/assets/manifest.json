@@ -1,0 +1,799 @@
+{
+  "versao": 2,
+  "monstros": {
+    "constructo_palha": {
+      "arquivo": "assets/monstros/constructo_palha.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "lobo_planicie": {
+      "arquivo": "assets/monstros/lobo_planicie.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "espantalho_vivo": {
+      "arquivo": "assets/monstros/espantalho_vivo.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "colosso_argila": {
+      "arquivo": "assets/monstros/colosso_argila.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "cervo_espectral": {
+      "arquivo": "assets/monstros/cervo_espectral.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "sprite_lunar": {
+      "arquivo": "assets/monstros/sprite_lunar.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "guardiao_galhos": {
+      "arquivo": "assets/monstros/guardiao_galhos.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "rainha_silfide": {
+      "arquivo": "assets/monstros/rainha_silfide.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "gnomo_minerio": {
+      "arquivo": "assets/monstros/gnomo_minerio.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "golem_cobre": {
+      "arquivo": "assets/monstros/golem_cobre.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "verme_pedra": {
+      "arquivo": "assets/monstros/verme_pedra.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "forjador_rochoso": {
+      "arquivo": "assets/monstros/forjador_rochoso.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "brotoide": {
+      "arquivo": "assets/monstros/brotoide.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "fungo_errante": {
+      "arquivo": "assets/monstros/fungo_errante.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "arvore_abrigo": {
+      "arquivo": "assets/monstros/arvore_abrigo.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "mae_floresta": {
+      "arquivo": "assets/monstros/mae_floresta.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "gelido_menor": {
+      "arquivo": "assets/monstros/gelido_menor.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "lobo_gelo": {
+      "arquivo": "assets/monstros/lobo_gelo.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "espirito_nevasca": {
+      "arquivo": "assets/monstros/espirito_nevasca.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "tirano_gelo": {
+      "arquivo": "assets/monstros/tirano_gelo.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "ignis_lacaio": {
+      "arquivo": "assets/monstros/ignis_lacaio.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "abissal_cacador": {
+      "arquivo": "assets/monstros/abissal_cacador.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "demonio_cinzas": {
+      "arquivo": "assets/monstros/demonio_cinzas.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "senhor_abismo": {
+      "arquivo": "assets/monstros/senhor_abismo.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "guardiao_raizes": {
+      "arquivo": "assets/monstros/guardiao_raizes.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "mariposa_lunar": {
+      "arquivo": "assets/monstros/mariposa_lunar.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "sentinela_ferro": {
+      "arquivo": "assets/monstros/sentinela_ferro.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "oraculo_brejo": {
+      "arquivo": "assets/monstros/oraculo_brejo.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "urso_geada": {
+      "arquivo": "assets/monstros/urso_geada.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    },
+    "draco_cinzas": {
+      "arquivo": "assets/monstros/draco_cinzas.png",
+      "quadros": 4,
+      "tamanho": [
+        64,
+        64
+      ]
+    }
+  },
+  "personagens": {
+    "espadachim": {
+      "arquivo": "assets/personagens/espadachim.png",
+      "quadros": 4,
+      "tamanho": [
+        48,
+        48
+      ]
+    },
+    "arqueiro": {
+      "arquivo": "assets/personagens/arqueiro.png",
+      "quadros": 4,
+      "tamanho": [
+        48,
+        48
+      ]
+    },
+    "mago": {
+      "arquivo": "assets/personagens/mago.png",
+      "quadros": 4,
+      "tamanho": [
+        48,
+        48
+      ]
+    },
+    "healer": {
+      "arquivo": "assets/personagens/healer.png",
+      "quadros": 4,
+      "tamanho": [
+        48,
+        48
+      ]
+    },
+    "ninja": {
+      "arquivo": "assets/personagens/ninja.png",
+      "quadros": 4,
+      "tamanho": [
+        48,
+        48
+      ]
+    },
+    "taekwon": {
+      "arquivo": "assets/personagens/taekwon.png",
+      "quadros": 4,
+      "tamanho": [
+        48,
+        48
+      ]
+    },
+    "jiujitsu": {
+      "arquivo": "assets/personagens/jiujitsu.png",
+      "quadros": 4,
+      "tamanho": [
+        48,
+        48
+      ]
+    },
+    "karateka": {
+      "arquivo": "assets/personagens/karateka.png",
+      "quadros": 4,
+      "tamanho": [
+        48,
+        48
+      ]
+    },
+    "gunslinger": {
+      "arquivo": "assets/personagens/gunslinger.png",
+      "quadros": 4,
+      "tamanho": [
+        48,
+        48
+      ]
+    },
+    "lanceiro": {
+      "arquivo": "assets/personagens/lanceiro.png",
+      "quadros": 4,
+      "tamanho": [
+        48,
+        48
+      ]
+    }
+  },
+  "tiles": {
+    "humano": {
+      "arquivo": "assets/tiles/humano.png",
+      "quantidade": 8,
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "elfico": {
+      "arquivo": "assets/tiles/elfico.png",
+      "quantidade": 8,
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "anao": {
+      "arquivo": "assets/tiles/anao.png",
+      "quantidade": 8,
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "driade": {
+      "arquivo": "assets/tiles/driade.png",
+      "quantidade": 8,
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "gelo": {
+      "arquivo": "assets/tiles/gelo.png",
+      "quantidade": 8,
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "demoniaco": {
+      "arquivo": "assets/tiles/demoniaco.png",
+      "quantidade": 8,
+      "tamanho": [
+        32,
+        32
+      ]
+    }
+  },
+  "itens": {
+    "arma_f": {
+      "arquivo": "assets/itens/arma_f.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "armadura_f": {
+      "arquivo": "assets/itens/armadura_f.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "acessorio_f": {
+      "arquivo": "assets/itens/acessorio_f.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "anel_f": {
+      "arquivo": "assets/itens/anel_f.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "pingente_f": {
+      "arquivo": "assets/itens/pingente_f.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "botas_f": {
+      "arquivo": "assets/itens/botas_f.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "arma_e": {
+      "arquivo": "assets/itens/arma_e.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "armadura_e": {
+      "arquivo": "assets/itens/armadura_e.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "acessorio_e": {
+      "arquivo": "assets/itens/acessorio_e.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "anel_e": {
+      "arquivo": "assets/itens/anel_e.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "pingente_e": {
+      "arquivo": "assets/itens/pingente_e.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "botas_e": {
+      "arquivo": "assets/itens/botas_e.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "arma_d": {
+      "arquivo": "assets/itens/arma_d.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "armadura_d": {
+      "arquivo": "assets/itens/armadura_d.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "acessorio_d": {
+      "arquivo": "assets/itens/acessorio_d.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "anel_d": {
+      "arquivo": "assets/itens/anel_d.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "pingente_d": {
+      "arquivo": "assets/itens/pingente_d.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "botas_d": {
+      "arquivo": "assets/itens/botas_d.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "arma_c": {
+      "arquivo": "assets/itens/arma_c.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "armadura_c": {
+      "arquivo": "assets/itens/armadura_c.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "acessorio_c": {
+      "arquivo": "assets/itens/acessorio_c.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "anel_c": {
+      "arquivo": "assets/itens/anel_c.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "pingente_c": {
+      "arquivo": "assets/itens/pingente_c.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "botas_c": {
+      "arquivo": "assets/itens/botas_c.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "arma_b": {
+      "arquivo": "assets/itens/arma_b.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "armadura_b": {
+      "arquivo": "assets/itens/armadura_b.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "acessorio_b": {
+      "arquivo": "assets/itens/acessorio_b.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "anel_b": {
+      "arquivo": "assets/itens/anel_b.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "pingente_b": {
+      "arquivo": "assets/itens/pingente_b.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "botas_b": {
+      "arquivo": "assets/itens/botas_b.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "arma_a": {
+      "arquivo": "assets/itens/arma_a.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "armadura_a": {
+      "arquivo": "assets/itens/armadura_a.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "acessorio_a": {
+      "arquivo": "assets/itens/acessorio_a.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "anel_a": {
+      "arquivo": "assets/itens/anel_a.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "pingente_a": {
+      "arquivo": "assets/itens/pingente_a.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "botas_a": {
+      "arquivo": "assets/itens/botas_a.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "arma_s": {
+      "arquivo": "assets/itens/arma_s.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "armadura_s": {
+      "arquivo": "assets/itens/armadura_s.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "acessorio_s": {
+      "arquivo": "assets/itens/acessorio_s.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "anel_s": {
+      "arquivo": "assets/itens/anel_s.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "pingente_s": {
+      "arquivo": "assets/itens/pingente_s.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "botas_s": {
+      "arquivo": "assets/itens/botas_s.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "arma_ss": {
+      "arquivo": "assets/itens/arma_ss.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "armadura_ss": {
+      "arquivo": "assets/itens/armadura_ss.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "acessorio_ss": {
+      "arquivo": "assets/itens/acessorio_ss.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "anel_ss": {
+      "arquivo": "assets/itens/anel_ss.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "pingente_ss": {
+      "arquivo": "assets/itens/pingente_ss.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "botas_ss": {
+      "arquivo": "assets/itens/botas_ss.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "fibra_palha": {
+      "arquivo": "assets/itens/fibra_palha.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "erva_lunar": {
+      "arquivo": "assets/itens/erva_lunar.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "minerio_cobre": {
+      "arquivo": "assets/itens/minerio_cobre.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "seiva_viva": {
+      "arquivo": "assets/itens/seiva_viva.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "cristal_gelido": {
+      "arquivo": "assets/itens/cristal_gelido.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "brasa_abissal": {
+      "arquivo": "assets/itens/brasa_abissal.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "peixe_lunar": {
+      "arquivo": "assets/itens/peixe_lunar.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "peixe_gelido": {
+      "arquivo": "assets/itens/peixe_gelido.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "marca_mercado_negro": {
+      "arquivo": "assets/itens/marca_mercado_negro.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "insignia_cla_ss": {
+      "arquivo": "assets/itens/insignia_cla_ss.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "nucleo_ranqueado": {
+      "arquivo": "assets/itens/nucleo_ranqueado.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    },
+    "placa_cacada_mundi": {
+      "arquivo": "assets/itens/placa_cacada_mundi.png",
+      "tamanho": [
+        32,
+        32
+      ]
+    }
+  }
+}

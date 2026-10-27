@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "blender-mcp": {
+      "command": "uvx",
+      "args": ["blender-mcp"]
+    },
+    "filesystem-assets": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "./assets"]
+    }
+  }
+}

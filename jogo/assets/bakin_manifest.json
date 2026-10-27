@@ -1,0 +1,86 @@
+{
+  "project_style": "Original GrimReap pixel art; 40x40 and 80x80 cell grids compatible with RPG Developer Bakin workflows without reproducing third-party art",
+  "generator": "ferramentas/gerar_assets_bakin_local.py",
+  "assets": [
+    {
+      "name": "hero_adventurer",
+      "category": "character_hd",
+      "folder": "characters",
+      "colors": 32,
+      "normal_map": true,
+      "prompt": "Original red-panda cyberpunk adventurer wearing a charcoal steampunk coat with brass details, a striped russet tail, white face markings and fine cyan neon circuitry; 3x4 directional walking spritesheet"
+    },
+    {
+      "name": "npc_village_alchemist",
+      "category": "character_hd",
+      "folder": "characters",
+      "colors": 32,
+      "normal_map": true,
+      "prompt": "Original GrimReap village alchemist with plum coat, brass details and a glass vial; 3x4 directional walking spritesheet"
+    },
+    {
+      "name": "monster_forest_slime",
+      "category": "character_standard",
+      "folder": "characters",
+      "colors": 24,
+      "normal_map": true,
+      "prompt": "Original translucent emerald forest slime with small amber eyes; 3x4 directional animation spritesheet"
+    },
+    {
+      "name": "prop_treasure_chest",
+      "category": "prop",
+      "folder": "props",
+      "colors": 24,
+      "normal_map": true,
+      "prompt": "Original small oak treasure chest with bronze corner plates and a turquoise rune lock"
+    },
+    {
+      "name": "prop_glowing_crystal",
+      "category": "prop",
+      "folder": "props",
+      "colors": 24,
+      "normal_map": true,
+      "prompt": "Original faceted cyan crystal shard with a violet inner glow"
+    },
+    {
+      "name": "prop_town_streetlamp",
+      "category": "prop_large",
+      "folder": "props",
+      "colors": 24,
+      "normal_map": true,
+      "prompt": "Original dark iron village streetlamp with a warm gold glass lantern"
+    },
+    {
+      "name": "prop_foliage_bush",
+      "category": "prop",
+      "folder": "props",
+      "colors": 24,
+      "normal_map": true,
+      "prompt": "Original rounded forest bush with layered green leaves and tiny coral berries"
+    },
+    {
+      "name": "tile_cobblestone_grass",
+      "category": "tileset",
+      "folder": "tiles",
+      "colors": 32,
+      "normal_map": true,
+      "prompt": "Original seamless square tile texture alternating mossy grass and pale slate cobblestone"
+    },
+    {
+      "name": "icon_hp_potion",
+      "category": "icon",
+      "folder": "ui/icons",
+      "colors": 16,
+      "normal_map": false,
+      "prompt": "Original inventory icon of a glass vial filled with a glowing ruby healing potion"
+    },
+    {
+      "name": "icon_mana_ether",
+      "category": "icon",
+      "folder": "ui/icons",
+      "colors": 16,
+      "normal_map": false,
+      "prompt": "Original inventory icon of a glass vial filled with a bright azure mana ether"
+    }
+  ]
+}

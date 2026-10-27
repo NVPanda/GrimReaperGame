@@ -1,0 +1,128 @@
+[
+  {
+    "id": "npc_humano_mercador",
+    "nome": "Hélio (mercador)",
+    "continente": "humano",
+    "zona": "vila_central",
+    "funcao": "loja"
+  },
+  {
+    "id": "npc_humano_guia",
+    "nome": "Marta (guia)",
+    "continente": "humano",
+    "zona": "vila_central",
+    "funcao": "missoes"
+  },
+  {
+    "id": "npc_humano_ferreiro",
+    "nome": "Tomé (ferreiro)",
+    "continente": "humano",
+    "zona": "vila_central",
+    "funcao": "forja"
+  },
+  {
+    "id": "npc_elfico_mercador",
+    "nome": "Ilaveth (mercador)",
+    "continente": "elfico",
+    "zona": "clareira_sagrada",
+    "funcao": "loja"
+  },
+  {
+    "id": "npc_elfico_guia",
+    "nome": "Corvino (guia)",
+    "continente": "elfico",
+    "zona": "clareira_sagrada",
+    "funcao": "missoes"
+  },
+  {
+    "id": "npc_elfico_ferreiro",
+    "nome": "Sabra (ferreiro)",
+    "continente": "elfico",
+    "zona": "clareira_sagrada",
+    "funcao": "forja"
+  },
+  {
+    "id": "npc_anao_mercador",
+    "nome": "Vorn (mercador)",
+    "continente": "anao",
+    "zona": "forja_profunda",
+    "funcao": "loja"
+  },
+  {
+    "id": "npc_anao_guia",
+    "nome": "Halda (guia)",
+    "continente": "anao",
+    "zona": "forja_profunda",
+    "funcao": "missoes"
+  },
+  {
+    "id": "npc_anao_ferreiro",
+    "nome": "Durnok (ferreiro)",
+    "continente": "anao",
+    "zona": "forja_profunda",
+    "funcao": "forja"
+  },
+  {
+    "id": "npc_driade_mercador",
+    "nome": "Tanuk (mercador)",
+    "continente": "driade",
+    "zona": "abrigo_raizes",
+    "funcao": "loja"
+  },
+  {
+    "id": "npc_driade_guia",
+    "nome": "Ysa (guia)",
+    "continente": "driade",
+    "zona": "abrigo_raizes",
+    "funcao": "missoes"
+  },
+  {
+    "id": "npc_driade_ferreiro",
+    "nome": "Olmo (ferreiro)",
+    "continente": "driade",
+    "zona": "abrigo_raizes",
+    "funcao": "forja"
+  },
+  {
+    "id": "npc_gelo_mercador",
+    "nome": "Gorok (mercador)",
+    "continente": "gelo",
+    "zona": "posto_norte",
+    "funcao": "loja"
+  },
+  {
+    "id": "npc_gelo_guia",
+    "nome": "Nívea (guia)",
+    "continente": "gelo",
+    "zona": "posto_norte",
+    "funcao": "missoes"
+  },
+  {
+    "id": "npc_gelo_ferreiro",
+    "nome": "Rhaskar (ferreiro)",
+    "continente": "gelo",
+    "zona": "posto_norte",
+    "funcao": "forja"
+  },
+  {
+    "id": "npc_demoniaco_mercador",
+    "nome": "Malvek (mercador)",
+    "continente": "demoniaco",
+    "zona": "portao_brasa",
+    "funcao": "loja"
+  },
+  {
+    "id": "npc_demoniaco_guia",
+    "nome": "Zarith (guia)",
+    "continente": "demoniaco",
+    "zona": "portao_brasa",
+    "funcao": "missoes"
+  },
+  {
+    "id": "npc_demoniaco_ferreiro",
+    "nome": "Ignaro (ferreiro)",
+    "continente": "demoniaco",
+    "zona": "portao_brasa",
+    "funcao": "forja"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "chat.agent.enabled": true,
+  "chat.agent.maxRequests": 15,
+  "chat.promptFiles": true,
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.git": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/assets/**/*.png": true,
+    "**/*.lock": true
+  }
+}

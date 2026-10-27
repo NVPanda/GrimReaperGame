@@ -1,0 +1,32 @@
+{
+  "moeda": {
+    "nome": "Mitrum Coin",
+    "abreviacao": "MC"
+  },
+  "venda_npc_mc_por_rank": {
+    "F": 2,
+    "E": 5,
+    "D": 12,
+    "C": 25,
+    "B": 50,
+    "A": 100,
+    "S": 220,
+    "SS": 500
+  },
+  "tarifas_teleporte_mc": {
+    "cidade_mesmo_continente": 100,
+    "cidade_intercontinental": 1000,
+    "masmorra": 10000,
+    "masmorra_ss": 100000,
+    "zona_masmorra_ss": "trono_abismo"
+  },
+  "fontes_de_mc": [
+    "quests",
+    "venda de itens ao NPC mercador"
+  ],
+  "restricoes": [
+    "MC não é convertível em dinheiro real.",
+    "MC não é negociável fora do jogo.",
+    "Itens com chance de ganho pago não existem (ADR 0003)."
+  ]
+}

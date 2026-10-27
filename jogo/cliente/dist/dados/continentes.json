@@ -1,0 +1,86 @@
+[
+  {
+    "id": "humano",
+    "nome": "Continente Humano",
+    "ordem": 1,
+    "nivel": [
+      1,
+      18
+    ],
+    "paleta": [
+      "#4f7a3a",
+      "#8a6a3a",
+      "#3a5f8a"
+    ]
+  },
+  {
+    "id": "elfico",
+    "nome": "Continente Élfico",
+    "ordem": 2,
+    "nivel": [
+      14,
+      30
+    ],
+    "paleta": [
+      "#2e6b4f",
+      "#5ea88a",
+      "#8fd3b0"
+    ]
+  },
+  {
+    "id": "anao",
+    "nome": "Continente Anão",
+    "ordem": 3,
+    "nivel": [
+      24,
+      38
+    ],
+    "paleta": [
+      "#6b5a4a",
+      "#9c8466",
+      "#c9a86a"
+    ]
+  },
+  {
+    "id": "driade",
+    "nome": "Continente Dríades",
+    "ordem": 4,
+    "nivel": [
+      30,
+      44
+    ],
+    "paleta": [
+      "#1f5e2a",
+      "#4aa35a",
+      "#a6d96a"
+    ]
+  },
+  {
+    "id": "gelo",
+    "nome": "Continente de Gelo",
+    "ordem": 5,
+    "nivel": [
+      38,
+      50
+    ],
+    "paleta": [
+      "#a9d6e8",
+      "#e8f6ff",
+      "#5b8fb0"
+    ]
+  },
+  {
+    "id": "demoniaco",
+    "nome": "Continente Demoníaco",
+    "ordem": 6,
+    "nivel": [
+      44,
+      50
+    ],
+    "paleta": [
+      "#2a0a0a",
+      "#7a1c1c",
+      "#ff6a1a"
+    ]
+  }
+]

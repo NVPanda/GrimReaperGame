@@ -1,0 +1,9 @@
+{
+  "appId": "com.grimreap.game",
+  "appName": "GrimReap",
+  "webDir": "../cliente/dist",
+  "server": {
+    "cleartext": false,
+    "androidScheme": "https"
+  }
+}

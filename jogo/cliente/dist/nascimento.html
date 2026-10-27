@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self' ws: wss:; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <title>GrimReap — nascimento</title>
+  <link rel="stylesheet" href="./theme.css">
+  <script src="./runtime-config.js"></script>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #14161c; color: #eee; }
+    body { margin: 0; }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 18px max(20px, calc((100% - 900px)/2)); background: #1d2029; }
+    main { max-width: 900px; margin: 36px auto; padding: 0 20px; }
+    #continentes { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; }
+    .continente { display: flex; gap: 12px; align-items: flex-start; background: #1d2029; border: 1px solid #414653; border-radius: 10px; padding: 18px; cursor: pointer; }
+    .continente:has(input:checked) { border-color: #69a3ff; box-shadow: 0 0 0 2px #3b82f6; }
+    input { accent-color: #3b82f6; margin-top: 5px; }
+    button { padding: 12px 18px; border: 0; border-radius: 6px; background: #3b82f6; color: #fff; font: inherit; font-weight: 650; cursor: pointer; }
+    button:disabled { opacity: .55; cursor: not-allowed; }
+    .muted { color: #aab1bf; }
+    #mensagem { min-height: 1.5em; color: #ffd46b; }
+    .actions { display: flex; gap: 14px; align-items: center; margin-top: 20px; }
+    a { color: #9cc2ff; }
+    @media (max-width: 560px) { header, .actions { align-items: flex-start; flex-direction: column; } }
+  </style>
+</head>
+<body>
+  <header><strong>GrimReap</strong><span>Etapa 3 de 3 — mundo natal</span></header>
+  <main>
+    <h1>Escolha onde sua jornada começa</h1>
+    <p class="muted">A cidade e o continente escolhidos serão o nascimento definitivo deste personagem. Você poderá salvar outro ponto de respawn em cidades visitadas usando o NPC Save.</p>
+    <p id="mensagem" role="status" aria-live="polite">Carregando os continentes…</p>
+    <form id="nascimento-form">
+      <div id="continentes"></div>
+      <div class="actions">
+        <button id="confirmar" type="submit" disabled>Nascer neste continente</button>
+        <a href="/personagens.html">Voltar à seleção de personagens</a>
+      </div>
+    </form>
+  </main>
+  <script type="module" src="./nascimento.js"></script>
+</body>
+</html>

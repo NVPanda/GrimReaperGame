@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self' ws: wss:; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <title>GrimReap — mapa do Reino</title>
+  <link rel="stylesheet" href="./theme.css">
+  <script src="./runtime-config.js"></script>
+  <style>
+    main { max-width: 1380px; margin: 24px auto; padding: 0 20px; }
+    .map-layout { display: grid; grid-template-columns: minmax(0, 1fr) 310px; gap: 18px; align-items: start; }
+    .map-frame, .map-info { border: 1px solid var(--border); border-radius: 12px; background: var(--surface); padding: 14px; }
+    canvas { display: block; width: 100%; height: auto; border: 1px solid var(--border); border-radius: 8px; }
+    .map-info { position: sticky; top: 14px; }
+    .map-info h2 { margin-top: 0; color: var(--accent); }
+    .boss-entry { border-top: 1px solid var(--border); padding: 10px 0; }
+    .boss-entry h3 { margin: 0 0 5px; font-size: 1rem; }
+    .boss-active { color: var(--accent); }
+    .boss-waiting { color: var(--highlight); }
+    .legend { display: flex; flex-wrap: wrap; gap: 12px; color: var(--muted); font-size: .9rem; padding-top: 10px; }
+    .legend span { display: inline-flex; gap: 6px; align-items: center; }
+    .legend i { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }
+    #map-message { min-height: 1.5em; color: var(--highlight); }
+    @media (max-width: 900px) { .map-layout { grid-template-columns: 1fr; } .map-info { position: static; } }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>GRIMREAP</strong>
+    <span>Continentes do Reino de GrimReap · rotas e regiões de aparição</span>
+    <a href="/jogo.html">Voltar ao jogo</a>
+  </header>
+  <main>
+    <p id="map-message" role="status" aria-live="polite">Carregando mapa e eventos…</p>
+    <div class="map-layout">
+      <section class="map-frame" aria-label="Mapa interativo do Reino de GrimReap">
+        <canvas id="map-world" width="1200" height="780" aria-label="Mapa original dos seis continentes de GrimReap"></canvas>
+        <div class="legend" aria-label="Legenda">
+          <span><i style="background:#65e9dc"></i>Cidade</span>
+          <span><i style="background:#f1c56e"></i>Campo</span>
+          <span><i style="background:#d88bff"></i>Masmorra</span>
+          <span><i style="background:#ff5a70"></i>Círculo de miniboss</span>
+        </div>
+      </section>
+      <aside class="map-info">
+        <h2>Região selecionada</h2>
+        <p id="selected-region">Selecione um marcador no mapa.</p>
+        <h2>Alertas mundiais</h2>
+        <div id="boss-events" aria-live="polite"></div>
+        <small>Os horários são sincronizados pelo servidor. Aproxime-se do círculo indicado no campo e ataque o chefe ativo pelo jogo.</small>
+      </aside>
+    </div>
+  </main>
+  <script type="module" src="./mapa-mundi.js"></script>
+</body>
+</html>

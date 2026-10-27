@@ -1,0 +1,738 @@
+[
+  {
+    "id": "arma_f",
+    "nome": "Lâmina Simples",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "arma",
+    "rank": "F",
+    "atributos": {
+      "forca": 3,
+      "destreza": 1
+    },
+    "venda_mc": 2
+  },
+  {
+    "id": "armadura_f",
+    "nome": "Armadura Simples",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "armadura",
+    "rank": "F",
+    "atributos": {
+      "vitalidade": 3
+    },
+    "venda_mc": 2
+  },
+  {
+    "id": "acessorio_f",
+    "nome": "Amuleto Simples",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "acessorio",
+    "rank": "F",
+    "atributos": {
+      "sorte": 3,
+      "inteligencia": 1
+    },
+    "venda_mc": 2
+  },
+  {
+    "id": "anel_f",
+    "nome": "Anel Simples",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "anel",
+    "rank": "F",
+    "atributos": {
+      "sorte": 1,
+      "agilidade": 1
+    },
+    "venda_mc": 2
+  },
+  {
+    "id": "pingente_f",
+    "nome": "Pingente Simples",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "pingente",
+    "rank": "F",
+    "atributos": {
+      "inteligencia": 3,
+      "vitalidade": 1
+    },
+    "venda_mc": 2
+  },
+  {
+    "id": "botas_f",
+    "nome": "Botas Simples",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "botas",
+    "rank": "F",
+    "atributos": {
+      "agilidade": 3,
+      "vitalidade": 1
+    },
+    "venda_mc": 2
+  },
+  {
+    "id": "arma_e",
+    "nome": "Lâmina Bronze",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "arma",
+    "rank": "E",
+    "atributos": {
+      "forca": 7,
+      "destreza": 3
+    },
+    "venda_mc": 5
+  },
+  {
+    "id": "armadura_e",
+    "nome": "Armadura Bronze",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "armadura",
+    "rank": "E",
+    "atributos": {
+      "vitalidade": 7
+    },
+    "venda_mc": 5
+  },
+  {
+    "id": "acessorio_e",
+    "nome": "Amuleto Bronze",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "acessorio",
+    "rank": "E",
+    "atributos": {
+      "sorte": 7,
+      "inteligencia": 3
+    },
+    "venda_mc": 5
+  },
+  {
+    "id": "anel_e",
+    "nome": "Anel Bronze",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "anel",
+    "rank": "E",
+    "atributos": {
+      "sorte": 3,
+      "agilidade": 3
+    },
+    "venda_mc": 5
+  },
+  {
+    "id": "pingente_e",
+    "nome": "Pingente Bronze",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "pingente",
+    "rank": "E",
+    "atributos": {
+      "inteligencia": 7,
+      "vitalidade": 3
+    },
+    "venda_mc": 5
+  },
+  {
+    "id": "botas_e",
+    "nome": "Botas Bronze",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "botas",
+    "rank": "E",
+    "atributos": {
+      "agilidade": 7,
+      "vitalidade": 3
+    },
+    "venda_mc": 5
+  },
+  {
+    "id": "arma_d",
+    "nome": "Lâmina Ferro",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "arma",
+    "rank": "D",
+    "atributos": {
+      "forca": 11,
+      "destreza": 5
+    },
+    "venda_mc": 12
+  },
+  {
+    "id": "armadura_d",
+    "nome": "Armadura Ferro",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "armadura",
+    "rank": "D",
+    "atributos": {
+      "vitalidade": 11
+    },
+    "venda_mc": 12
+  },
+  {
+    "id": "acessorio_d",
+    "nome": "Amuleto Ferro",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "acessorio",
+    "rank": "D",
+    "atributos": {
+      "sorte": 11,
+      "inteligencia": 5
+    },
+    "venda_mc": 12
+  },
+  {
+    "id": "anel_d",
+    "nome": "Anel Ferro",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "anel",
+    "rank": "D",
+    "atributos": {
+      "sorte": 5,
+      "agilidade": 5
+    },
+    "venda_mc": 12
+  },
+  {
+    "id": "pingente_d",
+    "nome": "Pingente Ferro",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "pingente",
+    "rank": "D",
+    "atributos": {
+      "inteligencia": 11,
+      "vitalidade": 5
+    },
+    "venda_mc": 12
+  },
+  {
+    "id": "botas_d",
+    "nome": "Botas Ferro",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "botas",
+    "rank": "D",
+    "atributos": {
+      "agilidade": 11,
+      "vitalidade": 5
+    },
+    "venda_mc": 12
+  },
+  {
+    "id": "arma_c",
+    "nome": "Lâmina Aço",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "arma",
+    "rank": "C",
+    "atributos": {
+      "forca": 15,
+      "destreza": 7
+    },
+    "venda_mc": 25
+  },
+  {
+    "id": "armadura_c",
+    "nome": "Armadura Aço",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "armadura",
+    "rank": "C",
+    "atributos": {
+      "vitalidade": 15
+    },
+    "venda_mc": 25
+  },
+  {
+    "id": "acessorio_c",
+    "nome": "Amuleto Aço",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "acessorio",
+    "rank": "C",
+    "atributos": {
+      "sorte": 15,
+      "inteligencia": 7
+    },
+    "venda_mc": 25
+  },
+  {
+    "id": "anel_c",
+    "nome": "Anel Aço",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "anel",
+    "rank": "C",
+    "atributos": {
+      "sorte": 7,
+      "agilidade": 7
+    },
+    "venda_mc": 25
+  },
+  {
+    "id": "pingente_c",
+    "nome": "Pingente Aço",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "pingente",
+    "rank": "C",
+    "atributos": {
+      "inteligencia": 15,
+      "vitalidade": 7
+    },
+    "venda_mc": 25
+  },
+  {
+    "id": "botas_c",
+    "nome": "Botas Aço",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "botas",
+    "rank": "C",
+    "atributos": {
+      "agilidade": 15,
+      "vitalidade": 7
+    },
+    "venda_mc": 25
+  },
+  {
+    "id": "arma_b",
+    "nome": "Lâmina Mithril",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "arma",
+    "rank": "B",
+    "atributos": {
+      "forca": 19,
+      "destreza": 9
+    },
+    "venda_mc": 50
+  },
+  {
+    "id": "armadura_b",
+    "nome": "Armadura Mithril",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "armadura",
+    "rank": "B",
+    "atributos": {
+      "vitalidade": 19
+    },
+    "venda_mc": 50
+  },
+  {
+    "id": "acessorio_b",
+    "nome": "Amuleto Mithril",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "acessorio",
+    "rank": "B",
+    "atributos": {
+      "sorte": 19,
+      "inteligencia": 9
+    },
+    "venda_mc": 50
+  },
+  {
+    "id": "anel_b",
+    "nome": "Anel Mithril",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "anel",
+    "rank": "B",
+    "atributos": {
+      "sorte": 9,
+      "agilidade": 9
+    },
+    "venda_mc": 50
+  },
+  {
+    "id": "pingente_b",
+    "nome": "Pingente Mithril",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "pingente",
+    "rank": "B",
+    "atributos": {
+      "inteligencia": 19,
+      "vitalidade": 9
+    },
+    "venda_mc": 50
+  },
+  {
+    "id": "botas_b",
+    "nome": "Botas Mithril",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "botas",
+    "rank": "B",
+    "atributos": {
+      "agilidade": 19,
+      "vitalidade": 9
+    },
+    "venda_mc": 50
+  },
+  {
+    "id": "arma_a",
+    "nome": "Lâmina Runa",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "arma",
+    "rank": "A",
+    "atributos": {
+      "forca": 23,
+      "destreza": 11
+    },
+    "venda_mc": 100
+  },
+  {
+    "id": "armadura_a",
+    "nome": "Armadura Runa",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "armadura",
+    "rank": "A",
+    "atributos": {
+      "vitalidade": 23
+    },
+    "venda_mc": 100
+  },
+  {
+    "id": "acessorio_a",
+    "nome": "Amuleto Runa",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "acessorio",
+    "rank": "A",
+    "atributos": {
+      "sorte": 23,
+      "inteligencia": 11
+    },
+    "venda_mc": 100
+  },
+  {
+    "id": "anel_a",
+    "nome": "Anel Runa",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "anel",
+    "rank": "A",
+    "atributos": {
+      "sorte": 11,
+      "agilidade": 11
+    },
+    "venda_mc": 100
+  },
+  {
+    "id": "pingente_a",
+    "nome": "Pingente Runa",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "pingente",
+    "rank": "A",
+    "atributos": {
+      "inteligencia": 23,
+      "vitalidade": 11
+    },
+    "venda_mc": 100
+  },
+  {
+    "id": "botas_a",
+    "nome": "Botas Runa",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "botas",
+    "rank": "A",
+    "atributos": {
+      "agilidade": 23,
+      "vitalidade": 11
+    },
+    "venda_mc": 100
+  },
+  {
+    "id": "arma_s",
+    "nome": "Lâmina Estelar",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "arma",
+    "rank": "S",
+    "atributos": {
+      "forca": 32,
+      "destreza": 16
+    },
+    "venda_mc": 220
+  },
+  {
+    "id": "armadura_s",
+    "nome": "Armadura Estelar",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "armadura",
+    "rank": "S",
+    "atributos": {
+      "vitalidade": 32
+    },
+    "venda_mc": 220
+  },
+  {
+    "id": "acessorio_s",
+    "nome": "Amuleto Estelar",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "acessorio",
+    "rank": "S",
+    "atributos": {
+      "sorte": 32,
+      "inteligencia": 16
+    },
+    "venda_mc": 220
+  },
+  {
+    "id": "anel_s",
+    "nome": "Anel Estelar",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "anel",
+    "rank": "S",
+    "atributos": {
+      "sorte": 16,
+      "agilidade": 16
+    },
+    "venda_mc": 220
+  },
+  {
+    "id": "pingente_s",
+    "nome": "Pingente Estelar",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "pingente",
+    "rank": "S",
+    "atributos": {
+      "inteligencia": 32,
+      "vitalidade": 16
+    },
+    "venda_mc": 220
+  },
+  {
+    "id": "botas_s",
+    "nome": "Botas Estelar",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "botas",
+    "rank": "S",
+    "atributos": {
+      "agilidade": 32,
+      "vitalidade": 16
+    },
+    "venda_mc": 220
+  },
+  {
+    "id": "arma_ss",
+    "nome": "Lâmina Primordial",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "arma",
+    "rank": "SS",
+    "atributos": {
+      "forca": 43,
+      "destreza": 21
+    },
+    "venda_mc": 500
+  },
+  {
+    "id": "armadura_ss",
+    "nome": "Armadura Primordial",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "armadura",
+    "rank": "SS",
+    "atributos": {
+      "vitalidade": 43
+    },
+    "venda_mc": 500
+  },
+  {
+    "id": "acessorio_ss",
+    "nome": "Amuleto Primordial",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "acessorio",
+    "rank": "SS",
+    "atributos": {
+      "sorte": 43,
+      "inteligencia": 21
+    },
+    "venda_mc": 500
+  },
+  {
+    "id": "anel_ss",
+    "nome": "Anel Primordial",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "anel",
+    "rank": "SS",
+    "atributos": {
+      "sorte": 21,
+      "agilidade": 21
+    },
+    "venda_mc": 500
+  },
+  {
+    "id": "pingente_ss",
+    "nome": "Pingente Primordial",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "pingente",
+    "rank": "SS",
+    "atributos": {
+      "inteligencia": 43,
+      "vitalidade": 21
+    },
+    "venda_mc": 500
+  },
+  {
+    "id": "botas_ss",
+    "nome": "Botas Primordial",
+    "tipo": "equipamento",
+    "categoria_loot": "equipamento",
+    "slot": "botas",
+    "rank": "SS",
+    "atributos": {
+      "agilidade": 43,
+      "vitalidade": 21
+    },
+    "venda_mc": 500
+  },
+  {
+    "id": "fibra_palha",
+    "nome": "Fibra de Palha",
+    "tipo": "material",
+    "slot": null,
+    "categoria_loot": "basicos",
+    "rank": "F",
+    "atributos": {},
+    "venda_mc": 2
+  },
+  {
+    "id": "erva_lunar",
+    "nome": "Erva Lunar",
+    "tipo": "material",
+    "slot": null,
+    "categoria_loot": "basicos",
+    "rank": "E",
+    "atributos": {},
+    "venda_mc": 5
+  },
+  {
+    "id": "minerio_cobre",
+    "nome": "Minério de Cobre",
+    "tipo": "material",
+    "slot": null,
+    "categoria_loot": "intermediarios",
+    "rank": "D",
+    "atributos": {},
+    "venda_mc": 12
+  },
+  {
+    "id": "seiva_viva",
+    "nome": "Seiva Viva",
+    "tipo": "material",
+    "slot": null,
+    "categoria_loot": "intermediarios",
+    "rank": "C",
+    "atributos": {},
+    "venda_mc": 25
+  },
+  {
+    "id": "cristal_gelido",
+    "nome": "Cristal Gélido",
+    "tipo": "material",
+    "slot": null,
+    "categoria_loot": "intermediarios",
+    "rank": "B",
+    "atributos": {},
+    "venda_mc": 50
+  },
+  {
+    "id": "brasa_abissal",
+    "nome": "Brasa Abissal",
+    "tipo": "material",
+    "slot": null,
+    "categoria_loot": "intermediarios",
+    "rank": "A",
+    "atributos": {},
+    "venda_mc": 100
+  },
+  {
+    "id": "peixe_lunar",
+    "nome": "Peixe Lunar",
+    "tipo": "material",
+    "slot": null,
+    "categoria_loot": "intermediarios",
+    "rank": "E",
+    "atributos": {},
+    "venda_mc": 5
+  },
+  {
+    "id": "peixe_gelido",
+    "nome": "Peixe Gélido",
+    "tipo": "material",
+    "slot": null,
+    "categoria_loot": "intermediarios",
+    "rank": "B",
+    "atributos": {},
+    "venda_mc": 50
+  },
+  {
+    "id": "marca_mercado_negro",
+    "nome": "Marca do Mercado Sombrio",
+    "tipo": "material",
+    "slot": null,
+    "rank": "S",
+    "categoria_loot": "ranqueados",
+    "atributos": {},
+    "venda_mc": 0
+  },
+  {
+    "id": "insignia_cla_ss",
+    "nome": "Insígnia de Acesso SS",
+    "tipo": "chave",
+    "slot": null,
+    "rank": "SS",
+    "categoria_loot": "ultra_raros",
+    "atributos": {},
+    "venda_mc": 0
+  },
+  {
+    "id": "nucleo_ranqueado",
+    "nome": "Núcleo de Aprimoramento",
+    "tipo": "material",
+    "slot": null,
+    "rank": "SS",
+    "categoria_loot": "ranqueados_ultra_raros",
+    "atributos": {},
+    "venda_mc": 0
+  },
+  {
+    "id": "placa_cacada_mundi",
+    "nome": "Placa de Caçada Mundi",
+    "tipo": "quest",
+    "slot": null,
+    "rank": "A",
+    "categoria_loot": "ranqueados",
+    "atributos": {},
+    "venda_mc": 0
+  }
+]

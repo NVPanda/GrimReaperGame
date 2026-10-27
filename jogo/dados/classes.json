@@ -1,0 +1,413 @@
+[
+  {
+    "id": "espadachim",
+    "nome": "Espadachim",
+    "papel": "linha de frente",
+    "cor": "#c0c0c0",
+    "base": {
+      "forca": 14,
+      "agilidade": 8,
+      "vitalidade": 14,
+      "inteligencia": 4,
+      "destreza": 12,
+      "sorte": 8
+    },
+    "crescimento": {
+      "forca": 0.35,
+      "vitalidade": 0.35,
+      "destreza": 0.2,
+      "sorte": 0.1
+    },
+    "habilidades": [
+      {
+        "id": "golpe_cortante",
+        "nome": "Golpe Cortante",
+        "custo_sp": 5,
+        "dano_pct": 120
+      },
+      {
+        "id": "postura_ferro",
+        "nome": "Postura de Ferro",
+        "custo_sp": 8,
+        "efeito": "defesa +20% por 10s"
+      },
+      {
+        "id": "investida",
+        "nome": "Investida",
+        "custo_sp": 10,
+        "dano_pct": 150,
+        "efeito": "avança até 4 casas"
+      }
+    ]
+  },
+  {
+    "id": "arqueiro",
+    "nome": "Arqueiro",
+    "papel": "distância física",
+    "cor": "#3fae4a",
+    "base": {
+      "forca": 8,
+      "agilidade": 14,
+      "vitalidade": 8,
+      "inteligencia": 4,
+      "destreza": 18,
+      "sorte": 8
+    },
+    "crescimento": {
+      "destreza": 0.45,
+      "agilidade": 0.3,
+      "vitalidade": 0.15,
+      "sorte": 0.1
+    },
+    "habilidades": [
+      {
+        "id": "flecha_perfurante",
+        "nome": "Flecha Perfurante",
+        "custo_sp": 5,
+        "dano_pct": 115
+      },
+      {
+        "id": "chuva_setas",
+        "nome": "Chuva de Setas",
+        "custo_sp": 12,
+        "dano_pct": 90,
+        "efeito": "área 3x3"
+      },
+      {
+        "id": "passo_leve",
+        "nome": "Passo Leve",
+        "custo_sp": 6,
+        "efeito": "esquiva +15% por 8s"
+      }
+    ]
+  },
+  {
+    "id": "mago",
+    "nome": "Mago",
+    "papel": "dano mágico à distância",
+    "cor": "#9b59d0",
+    "base": {
+      "forca": 4,
+      "agilidade": 8,
+      "vitalidade": 6,
+      "inteligencia": 22,
+      "destreza": 12,
+      "sorte": 8
+    },
+    "crescimento": {
+      "inteligencia": 0.6,
+      "destreza": 0.2,
+      "vitalidade": 0.1,
+      "sorte": 0.1
+    },
+    "habilidades": [
+      {
+        "id": "bola_chamas",
+        "nome": "Bola de Chamas",
+        "custo_sp": 6,
+        "dano_pct": 130,
+        "elemento": "fogo"
+      },
+      {
+        "id": "gelo_congelante",
+        "nome": "Gelo Congelante",
+        "custo_sp": 8,
+        "dano_pct": 100,
+        "efeito": "lentidão 30% por 4s"
+      },
+      {
+        "id": "escudo_arcano",
+        "nome": "Escudo Arcano",
+        "custo_sp": 10,
+        "efeito": "absorve dano igual a 40% da inteligência"
+      }
+    ]
+  },
+  {
+    "id": "healer",
+    "nome": "Healer",
+    "papel": "suporte e cura",
+    "cor": "#f5f0d0",
+    "base": {
+      "forca": 4,
+      "agilidade": 6,
+      "vitalidade": 14,
+      "inteligencia": 20,
+      "destreza": 8,
+      "sorte": 8
+    },
+    "crescimento": {
+      "inteligencia": 0.5,
+      "vitalidade": 0.3,
+      "sorte": 0.1,
+      "destreza": 0.1
+    },
+    "habilidades": [
+      {
+        "id": "cura_menor",
+        "nome": "Cura Menor",
+        "custo_sp": 6,
+        "efeito": "cura 60% da inteligência"
+      },
+      {
+        "id": "bencao",
+        "nome": "Bênção",
+        "custo_sp": 8,
+        "efeito": "força e destreza +10% por 30s em aliado"
+      },
+      {
+        "id": "purificar",
+        "nome": "Purificar",
+        "custo_sp": 10,
+        "efeito": "remove efeitos negativos"
+      }
+    ]
+  },
+  {
+    "id": "ninja",
+    "nome": "Ninja",
+    "papel": "dano rápido e furtivo",
+    "cor": "#333344",
+    "base": {
+      "forca": 10,
+      "agilidade": 18,
+      "vitalidade": 8,
+      "inteligencia": 4,
+      "destreza": 12,
+      "sorte": 8
+    },
+    "crescimento": {
+      "agilidade": 0.4,
+      "forca": 0.25,
+      "destreza": 0.2,
+      "sorte": 0.15
+    },
+    "habilidades": [
+      {
+        "id": "lamina_sombria",
+        "nome": "Lâmina Sombria",
+        "custo_sp": 5,
+        "dano_pct": 110
+      },
+      {
+        "id": "fumaca",
+        "nome": "Fumaça",
+        "custo_sp": 9,
+        "efeito": "some por 3s, sem alvo"
+      },
+      {
+        "id": "golpe_duplo",
+        "nome": "Golpe Duplo",
+        "custo_sp": 8,
+        "dano_pct": 140
+      }
+    ]
+  },
+  {
+    "id": "taekwon",
+    "nome": "Taekwon",
+    "papel": "chutes e mobilidade",
+    "cor": "#e0a030",
+    "base": {
+      "forca": 12,
+      "agilidade": 16,
+      "vitalidade": 10,
+      "inteligencia": 4,
+      "destreza": 10,
+      "sorte": 8
+    },
+    "crescimento": {
+      "agilidade": 0.35,
+      "forca": 0.35,
+      "vitalidade": 0.2,
+      "sorte": 0.1
+    },
+    "habilidades": [
+      {
+        "id": "chute_giratorio",
+        "nome": "Chute Giratório",
+        "custo_sp": 6,
+        "dano_pct": 125,
+        "efeito": "atinge área"
+      },
+      {
+        "id": "sequencia_veloz",
+        "nome": "Sequência Veloz",
+        "custo_sp": 7,
+        "dano_pct": 80,
+        "efeito": "3 golpes"
+      },
+      {
+        "id": "salto_alto",
+        "nome": "Salto Alto",
+        "custo_sp": 8,
+        "efeito": "pula sobre obstáculos"
+      }
+    ]
+  },
+  {
+    "id": "jiujitsu",
+    "nome": "Jiu-Jitsu",
+    "papel": "controle e contra-ataque",
+    "cor": "#2a6fb0",
+    "base": {
+      "forca": 12,
+      "agilidade": 6,
+      "vitalidade": 16,
+      "inteligencia": 4,
+      "destreza": 14,
+      "sorte": 8
+    },
+    "crescimento": {
+      "vitalidade": 0.35,
+      "forca": 0.35,
+      "destreza": 0.2,
+      "sorte": 0.1
+    },
+    "habilidades": [
+      {
+        "id": "chave_braco",
+        "nome": "Chave de Braço",
+        "custo_sp": 7,
+        "dano_pct": 95,
+        "efeito": "imobiliza 2s"
+      },
+      {
+        "id": "contra_ataque",
+        "nome": "Contra-Ataque",
+        "custo_sp": 8,
+        "efeito": "devolve 100% do próximo golpe"
+      },
+      {
+        "id": "estrangulamento",
+        "nome": "Estrangulamento",
+        "custo_sp": 10,
+        "dano_pct": 60,
+        "efeito": "dano por 4s"
+      }
+    ]
+  },
+  {
+    "id": "karateka",
+    "nome": "Karateka",
+    "papel": "golpes diretos",
+    "cor": "#d04a2a",
+    "base": {
+      "forca": 14,
+      "agilidade": 10,
+      "vitalidade": 14,
+      "inteligencia": 4,
+      "destreza": 10,
+      "sorte": 8
+    },
+    "crescimento": {
+      "forca": 0.4,
+      "vitalidade": 0.3,
+      "agilidade": 0.2,
+      "sorte": 0.1
+    },
+    "habilidades": [
+      {
+        "id": "soco_direto",
+        "nome": "Soco Direto",
+        "custo_sp": 5,
+        "dano_pct": 118
+      },
+      {
+        "id": "quebra_guarda",
+        "nome": "Quebra de Guarda",
+        "custo_sp": 8,
+        "dano_pct": 90,
+        "efeito": "reduz defesa do alvo 15%"
+      },
+      {
+        "id": "respiracao",
+        "nome": "Respiração Profunda",
+        "custo_sp": 6,
+        "efeito": "recupera 15% do SP"
+      }
+    ]
+  },
+  {
+    "id": "gunslinger",
+    "nome": "Gunslinger",
+    "papel": "tiro de precisão",
+    "cor": "#8a6a3a",
+    "base": {
+      "forca": 6,
+      "agilidade": 12,
+      "vitalidade": 8,
+      "inteligencia": 6,
+      "destreza": 20,
+      "sorte": 8
+    },
+    "crescimento": {
+      "destreza": 0.45,
+      "agilidade": 0.25,
+      "sorte": 0.2,
+      "vitalidade": 0.1
+    },
+    "habilidades": [
+      {
+        "id": "disparo_duplo",
+        "nome": "Disparo Duplo",
+        "custo_sp": 6,
+        "dano_pct": 130
+      },
+      {
+        "id": "tiro_certeiro",
+        "nome": "Tiro Certeiro",
+        "custo_sp": 9,
+        "dano_pct": 170
+      },
+      {
+        "id": "recarga_rapida",
+        "nome": "Recarga Rápida",
+        "custo_sp": 5,
+        "efeito": "próximo tiro sem custo"
+      }
+    ]
+  },
+  {
+    "id": "lanceiro",
+    "nome": "Lanceiro",
+    "papel": "alcance e controle de área",
+    "cor": "#a0b0c0",
+    "base": {
+      "forca": 16,
+      "agilidade": 8,
+      "vitalidade": 14,
+      "inteligencia": 4,
+      "destreza": 10,
+      "sorte": 8
+    },
+    "crescimento": {
+      "forca": 0.4,
+      "vitalidade": 0.3,
+      "destreza": 0.2,
+      "sorte": 0.1
+    },
+    "habilidades": [
+      {
+        "id": "estocada",
+        "nome": "Estocada",
+        "custo_sp": 5,
+        "dano_pct": 120,
+        "efeito": "alcance 3 casas"
+      },
+      {
+        "id": "varredura",
+        "nome": "Varredura",
+        "custo_sp": 8,
+        "dano_pct": 85,
+        "efeito": "área em arco"
+      },
+      {
+        "id": "muralha_lanca",
+        "nome": "Muralha de Lança",
+        "custo_sp": 9,
+        "efeito": "bloqueia 1 inimigo por 5s"
+      }
+    ]
+  }
+]

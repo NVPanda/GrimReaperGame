@@ -1,0 +1,18 @@
+{
+  "taxas_por_rank_pct": {
+    "F": 40,
+    "E": 25,
+    "D": 12,
+    "C": 6,
+    "B": 2.5,
+    "A": 1,
+    "S": 0.2
+  },
+  "regras": [
+    "Drops são calculados por monstro, individualmente, sem chance de NFT ou item pago.",
+    "Item de rank SS só cai de boss (ADR 0003 e SDD 06).",
+    "Em grupo, o nível de referência é o maior nível do grupo para liberar ranks acima do monstro.",
+    "Marca do Mercado Sombrio cai de monstros comuns; insígnia de acesso e núcleo de aprimoramento caem dos chefes menores das masmorras."
+  ],
+  "taxa_ss_boss_pct": 0.5
+}

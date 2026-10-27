@@ -1,0 +1,810 @@
+[
+  {
+    "id": "constructo_palha",
+    "nome": "Constructo de Palha",
+    "familia": "Constructos",
+    "continente": "humano",
+    "nivel": 2,
+    "boss": false,
+    "fraqueza": "fogo",
+    "atributos": {
+      "vida": 96,
+      "ataque": 7,
+      "defesa": 4,
+      "xp": 3
+    },
+    "respawn_s": 20,
+    "cor": "#4f7a3a",
+    "forma": "retangulo",
+    "drops": [
+      {
+        "item": "fibra_palha",
+        "taxa_pct": 40
+      },
+      {
+        "item": "arma_f",
+        "taxa_pct": 40
+      },
+      {
+        "item": "marca_mercado_negro",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "lobo_planicie",
+    "nome": "Lobo da Planície",
+    "familia": "Bestas",
+    "continente": "humano",
+    "nivel": 5,
+    "boss": false,
+    "fraqueza": "terra",
+    "atributos": {
+      "vida": 150,
+      "ataque": 12,
+      "defesa": 6,
+      "xp": 13
+    },
+    "respawn_s": 20,
+    "cor": "#8a6a3a",
+    "forma": "triangulo",
+    "drops": [
+      {
+        "item": "fibra_palha",
+        "taxa_pct": 40
+      },
+      {
+        "item": "armadura_f",
+        "taxa_pct": 40
+      },
+      {
+        "item": "marca_mercado_negro",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "espantalho_vivo",
+    "nome": "Espantalho Vivo",
+    "familia": "Constructos",
+    "continente": "humano",
+    "nivel": 10,
+    "boss": false,
+    "fraqueza": "fogo",
+    "atributos": {
+      "vida": 240,
+      "ataque": 20,
+      "defesa": 11,
+      "xp": 40
+    },
+    "respawn_s": 20,
+    "cor": "#3a5f8a",
+    "forma": "retangulo",
+    "drops": [
+      {
+        "item": "fibra_palha",
+        "taxa_pct": 40
+      },
+      {
+        "item": "acessorio_e",
+        "taxa_pct": 25
+      },
+      {
+        "item": "marca_mercado_negro",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "colosso_argila",
+    "nome": "Colosso de Argila",
+    "familia": "Constructos",
+    "continente": "humano",
+    "nivel": 15,
+    "boss": true,
+    "fraqueza": "agua",
+    "atributos": {
+      "vida": 990,
+      "ataque": 45,
+      "defesa": 22,
+      "xp": 457
+    },
+    "respawn_s": 900,
+    "cor": "#8a6a3a",
+    "forma": "retangulo",
+    "drops": [
+      {
+        "item": "fibra_palha",
+        "taxa_pct": 60
+      },
+      {
+        "item": "arma_e",
+        "taxa_pct": 15
+      },
+      {
+        "item": "arma_ss",
+        "taxa_pct": 0.5
+      },
+      {
+        "item": "insignia_cla_ss",
+        "taxa_pct": 0.1
+      },
+      {
+        "item": "nucleo_ranqueado",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "cervo_espectral",
+    "nome": "Cervo Espectral",
+    "familia": "Espíritos",
+    "continente": "elfico",
+    "nivel": 15,
+    "boss": false,
+    "fraqueza": "luz",
+    "atributos": {
+      "vida": 330,
+      "ataque": 28,
+      "defesa": 16,
+      "xp": 76
+    },
+    "respawn_s": 20,
+    "cor": "#2e6b4f",
+    "forma": "triangulo",
+    "drops": [
+      {
+        "item": "erva_lunar",
+        "taxa_pct": 25
+      },
+      {
+        "item": "armadura_e",
+        "taxa_pct": 25
+      },
+      {
+        "item": "marca_mercado_negro",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "sprite_lunar",
+    "nome": "Sprite Lunar",
+    "familia": "Espíritos",
+    "continente": "elfico",
+    "nivel": 19,
+    "boss": false,
+    "fraqueza": "trevas",
+    "atributos": {
+      "vida": 402,
+      "ataque": 34,
+      "defesa": 19,
+      "xp": 111
+    },
+    "respawn_s": 20,
+    "cor": "#8fd3b0",
+    "forma": "orbe",
+    "drops": [
+      {
+        "item": "erva_lunar",
+        "taxa_pct": 25
+      },
+      {
+        "item": "acessorio_d",
+        "taxa_pct": 12
+      },
+      {
+        "item": "marca_mercado_negro",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "guardiao_galhos",
+    "nome": "Guardião de Galhos",
+    "familia": "Plantas",
+    "continente": "elfico",
+    "nivel": 26,
+    "boss": false,
+    "fraqueza": "fogo",
+    "atributos": {
+      "vida": 528,
+      "ataque": 46,
+      "defesa": 25,
+      "xp": 184
+    },
+    "respawn_s": 20,
+    "cor": "#2e6b4f",
+    "forma": "planta",
+    "drops": [
+      {
+        "item": "erva_lunar",
+        "taxa_pct": 25
+      },
+      {
+        "item": "arma_c",
+        "taxa_pct": 6
+      },
+      {
+        "item": "marca_mercado_negro",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "rainha_silfide",
+    "nome": "Rainha Sílfide",
+    "familia": "Espíritos",
+    "continente": "elfico",
+    "nivel": 30,
+    "boss": true,
+    "fraqueza": "trevas",
+    "atributos": {
+      "vida": 1800,
+      "ataque": 83,
+      "defesa": 41,
+      "xp": 1385
+    },
+    "respawn_s": 900,
+    "cor": "#8fd3b0",
+    "forma": "orbe",
+    "drops": [
+      {
+        "item": "erva_lunar",
+        "taxa_pct": 60
+      },
+      {
+        "item": "armadura_c",
+        "taxa_pct": 15
+      },
+      {
+        "item": "armadura_ss",
+        "taxa_pct": 0.5
+      },
+      {
+        "item": "insignia_cla_ss",
+        "taxa_pct": 0.1
+      },
+      {
+        "item": "nucleo_ranqueado",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "gnomo_minerio",
+    "nome": "Gnomo de Minério",
+    "familia": "Golems",
+    "continente": "anao",
+    "nivel": 24,
+    "boss": false,
+    "fraqueza": "agua",
+    "atributos": {
+      "vida": 492,
+      "ataque": 42,
+      "defesa": 24,
+      "xp": 162
+    },
+    "respawn_s": 20,
+    "cor": "#9c8466",
+    "forma": "retangulo",
+    "drops": [
+      {
+        "item": "minerio_cobre",
+        "taxa_pct": 12
+      },
+      {
+        "item": "acessorio_d",
+        "taxa_pct": 12
+      },
+      {
+        "item": "marca_mercado_negro",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "golem_cobre",
+    "nome": "Golem de Cobre",
+    "familia": "Golems",
+    "continente": "anao",
+    "nivel": 28,
+    "boss": false,
+    "fraqueza": "agua",
+    "atributos": {
+      "vida": 564,
+      "ataque": 49,
+      "defesa": 27,
+      "xp": 207
+    },
+    "respawn_s": 20,
+    "cor": "#c9a86a",
+    "forma": "retangulo",
+    "drops": [
+      {
+        "item": "minerio_cobre",
+        "taxa_pct": 12
+      },
+      {
+        "item": "arma_c",
+        "taxa_pct": 6
+      },
+      {
+        "item": "marca_mercado_negro",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "verme_pedra",
+    "nome": "Verme de Pedra",
+    "familia": "Vermes",
+    "continente": "anao",
+    "nivel": 33,
+    "boss": false,
+    "fraqueza": "raio",
+    "atributos": {
+      "vida": 654,
+      "ataque": 57,
+      "defesa": 32,
+      "xp": 269
+    },
+    "respawn_s": 20,
+    "cor": "#9c8466",
+    "forma": "blob",
+    "drops": [
+      {
+        "item": "minerio_cobre",
+        "taxa_pct": 12
+      },
+      {
+        "item": "armadura_c",
+        "taxa_pct": 6
+      },
+      {
+        "item": "marca_mercado_negro",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "forjador_rochoso",
+    "nome": "Forjador Rochoso",
+    "familia": "Golems",
+    "continente": "anao",
+    "nivel": 38,
+    "boss": true,
+    "fraqueza": "agua",
+    "atributos": {
+      "vida": 2232,
+      "ataque": 104,
+      "defesa": 51,
+      "xp": 2022
+    },
+    "respawn_s": 900,
+    "cor": "#6b5a4a",
+    "forma": "retangulo",
+    "drops": [
+      {
+        "item": "minerio_cobre",
+        "taxa_pct": 60
+      },
+      {
+        "item": "acessorio_b",
+        "taxa_pct": 15
+      },
+      {
+        "item": "acessorio_ss",
+        "taxa_pct": 0.5
+      },
+      {
+        "item": "insignia_cla_ss",
+        "taxa_pct": 0.1
+      },
+      {
+        "item": "nucleo_ranqueado",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "brotoide",
+    "nome": "Brotoide",
+    "familia": "Plantas",
+    "continente": "driade",
+    "nivel": 30,
+    "boss": false,
+    "fraqueza": "fogo",
+    "atributos": {
+      "vida": 600,
+      "ataque": 52,
+      "defesa": 29,
+      "xp": 231
+    },
+    "respawn_s": 20,
+    "cor": "#a6d96a",
+    "forma": "planta",
+    "drops": [
+      {
+        "item": "seiva_viva",
+        "taxa_pct": 6
+      },
+      {
+        "item": "arma_c",
+        "taxa_pct": 6
+      },
+      {
+        "item": "marca_mercado_negro",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "fungo_errante",
+    "nome": "Fungo Errante",
+    "familia": "Fungos",
+    "continente": "driade",
+    "nivel": 34,
+    "boss": false,
+    "fraqueza": "fogo",
+    "atributos": {
+      "vida": 672,
+      "ataque": 58,
+      "defesa": 33,
+      "xp": 282
+    },
+    "respawn_s": 20,
+    "cor": "#a6d96a",
+    "forma": "blob",
+    "drops": [
+      {
+        "item": "seiva_viva",
+        "taxa_pct": 6
+      },
+      {
+        "item": "armadura_b",
+        "taxa_pct": 2.5
+      },
+      {
+        "item": "marca_mercado_negro",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "arvore_abrigo",
+    "nome": "Árvore-Abrigo",
+    "familia": "Plantas",
+    "continente": "driade",
+    "nivel": 38,
+    "boss": false,
+    "fraqueza": "fogo",
+    "atributos": {
+      "vida": 744,
+      "ataque": 65,
+      "defesa": 36,
+      "xp": 337
+    },
+    "respawn_s": 20,
+    "cor": "#1f5e2a",
+    "forma": "planta",
+    "drops": [
+      {
+        "item": "seiva_viva",
+        "taxa_pct": 6
+      },
+      {
+        "item": "acessorio_b",
+        "taxa_pct": 2.5
+      },
+      {
+        "item": "marca_mercado_negro",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "mae_floresta",
+    "nome": "Mãe da Floresta",
+    "familia": "Plantas",
+    "continente": "driade",
+    "nivel": 44,
+    "boss": true,
+    "fraqueza": "fogo",
+    "atributos": {
+      "vida": 2556,
+      "ataque": 119,
+      "defesa": 58,
+      "xp": 2557
+    },
+    "respawn_s": 900,
+    "cor": "#a6d96a",
+    "forma": "planta",
+    "drops": [
+      {
+        "item": "seiva_viva",
+        "taxa_pct": 60
+      },
+      {
+        "item": "arma_a",
+        "taxa_pct": 15
+      },
+      {
+        "item": "arma_ss",
+        "taxa_pct": 0.5
+      },
+      {
+        "item": "insignia_cla_ss",
+        "taxa_pct": 0.1
+      },
+      {
+        "item": "nucleo_ranqueado",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "gelido_menor",
+    "nome": "Gélido Menor",
+    "familia": "Gélidos",
+    "continente": "gelo",
+    "nivel": 38,
+    "boss": false,
+    "fraqueza": "fogo",
+    "atributos": {
+      "vida": 744,
+      "ataque": 65,
+      "defesa": 36,
+      "xp": 337
+    },
+    "respawn_s": 20,
+    "cor": "#a9d6e8",
+    "forma": "orbe",
+    "drops": [
+      {
+        "item": "cristal_gelido",
+        "taxa_pct": 2.5
+      },
+      {
+        "item": "armadura_b",
+        "taxa_pct": 2.5
+      },
+      {
+        "item": "marca_mercado_negro",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "lobo_gelo",
+    "nome": "Lobo de Gelo",
+    "familia": "Bestas",
+    "continente": "gelo",
+    "nivel": 42,
+    "boss": false,
+    "fraqueza": "fogo",
+    "atributos": {
+      "vida": 816,
+      "ataque": 71,
+      "defesa": 40,
+      "xp": 396
+    },
+    "respawn_s": 20,
+    "cor": "#a9d6e8",
+    "forma": "triangulo",
+    "drops": [
+      {
+        "item": "cristal_gelido",
+        "taxa_pct": 2.5
+      },
+      {
+        "item": "acessorio_a",
+        "taxa_pct": 1
+      },
+      {
+        "item": "marca_mercado_negro",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "espirito_nevasca",
+    "nome": "Espírito da Nevasca",
+    "familia": "Espíritos",
+    "continente": "gelo",
+    "nivel": 46,
+    "boss": false,
+    "fraqueza": "fogo",
+    "atributos": {
+      "vida": 888,
+      "ataque": 78,
+      "defesa": 43,
+      "xp": 458
+    },
+    "respawn_s": 20,
+    "cor": "#e8f6ff",
+    "forma": "orbe",
+    "drops": [
+      {
+        "item": "cristal_gelido",
+        "taxa_pct": 2.5
+      },
+      {
+        "item": "arma_s",
+        "taxa_pct": 0.2
+      },
+      {
+        "item": "marca_mercado_negro",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "tirano_gelo",
+    "nome": "Tirano de Gelo",
+    "familia": "Gélidos",
+    "continente": "gelo",
+    "nivel": 50,
+    "boss": true,
+    "fraqueza": "fogo",
+    "atributos": {
+      "vida": 2880,
+      "ataque": 134,
+      "defesa": 66,
+      "xp": 3137
+    },
+    "respawn_s": 900,
+    "cor": "#a9d6e8",
+    "forma": "retangulo",
+    "drops": [
+      {
+        "item": "cristal_gelido",
+        "taxa_pct": 60
+      },
+      {
+        "item": "armadura_s",
+        "taxa_pct": 15
+      },
+      {
+        "item": "armadura_ss",
+        "taxa_pct": 0.5
+      },
+      {
+        "item": "insignia_cla_ss",
+        "taxa_pct": 0.1
+      },
+      {
+        "item": "nucleo_ranqueado",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "ignis_lacaio",
+    "nome": "Ígneo Lacaio",
+    "familia": "Ígneos",
+    "continente": "demoniaco",
+    "nivel": 44,
+    "boss": false,
+    "fraqueza": "agua",
+    "atributos": {
+      "vida": 852,
+      "ataque": 74,
+      "defesa": 42,
+      "xp": 426
+    },
+    "respawn_s": 20,
+    "cor": "#7a1c1c",
+    "forma": "triangulo",
+    "drops": [
+      {
+        "item": "brasa_abissal",
+        "taxa_pct": 1
+      },
+      {
+        "item": "acessorio_a",
+        "taxa_pct": 1
+      },
+      {
+        "item": "marca_mercado_negro",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "abissal_cacador",
+    "nome": "Abissal Caçador",
+    "familia": "Abissais",
+    "continente": "demoniaco",
+    "nivel": 46,
+    "boss": false,
+    "fraqueza": "luz",
+    "atributos": {
+      "vida": 888,
+      "ataque": 78,
+      "defesa": 43,
+      "xp": 458
+    },
+    "respawn_s": 20,
+    "cor": "#ff6a1a",
+    "forma": "blob",
+    "drops": [
+      {
+        "item": "brasa_abissal",
+        "taxa_pct": 1
+      },
+      {
+        "item": "arma_s",
+        "taxa_pct": 0.2
+      },
+      {
+        "item": "marca_mercado_negro",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "demonio_cinzas",
+    "nome": "Demônio de Cinzas",
+    "familia": "Ígneos",
+    "continente": "demoniaco",
+    "nivel": 48,
+    "boss": false,
+    "fraqueza": "agua",
+    "atributos": {
+      "vida": 924,
+      "ataque": 81,
+      "defesa": 45,
+      "xp": 490
+    },
+    "respawn_s": 20,
+    "cor": "#2a0a0a",
+    "forma": "triangulo",
+    "drops": [
+      {
+        "item": "brasa_abissal",
+        "taxa_pct": 1
+      },
+      {
+        "item": "armadura_s",
+        "taxa_pct": 0.2
+      },
+      {
+        "item": "marca_mercado_negro",
+        "taxa_pct": 0.1
+      }
+    ]
+  },
+  {
+    "id": "senhor_abismo",
+    "nome": "Senhor do Abismo",
+    "familia": "Abissais",
+    "continente": "demoniaco",
+    "nivel": 50,
+    "boss": true,
+    "fraqueza": "luz",
+    "atributos": {
+      "vida": 2880,
+      "ataque": 134,
+      "defesa": 66,
+      "xp": 3137
+    },
+    "respawn_s": 900,
+    "cor": "#ff6a1a",
+    "forma": "blob",
+    "drops": [
+      {
+        "item": "brasa_abissal",
+        "taxa_pct": 60
+      },
+      {
+        "item": "acessorio_s",
+        "taxa_pct": 15
+      },
+      {
+        "item": "acessorio_ss",
+        "taxa_pct": 0.5
+      }
+    ]
+  }
+]

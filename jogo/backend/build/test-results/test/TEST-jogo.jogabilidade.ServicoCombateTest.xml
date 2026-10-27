@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jogo.jogabilidade.ServicoCombateTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-27T00:36:43" hostname="INSPIRON14-3443" time="12.863">
+  <properties/>
+  <testcase name="JOGO-03 saque PK é exclusivo e expira()" classname="jogo.jogabilidade.ServicoCombateTest" time="1.892"/>
+  <testcase name="JOGO-04 insígnia SS só cai de miniboss quando o nível alcança o marco()" classname="jogo.jogabilidade.ServicoCombateTest" time="0.647"/>
+  <testcase name="JOGO-01 combate verifica distancia e salva XP e drops no perfil()" classname="jogo.jogabilidade.ServicoCombateTest" time="0.084"/>
+  <testcase name="JOGO-02 assalto SS exige dez membros do mesmo clã e consome uma chave()" classname="jogo.jogabilidade.ServicoCombateTest" time="0.306"/>
+  <testcase name="QUEST-01 entrega de missão exige proximidade e credita MC apenas uma vez()" classname="jogo.jogabilidade.ServicoCombateTest" time="9.881"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

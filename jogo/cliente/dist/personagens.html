@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self' ws: wss:; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <title>GrimReap — personagens</title>
+  <link rel="stylesheet" href="./theme.css">
+  <script src="./runtime-config.js"></script>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #14161c; color: #eee; }
+    body { margin: 0; }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 18px max(20px, calc((100% - 860px)/2)); background: #1d2029; }
+    main { max-width: 860px; margin: 36px auto; padding: 0 20px; }
+    section { background: #1d2029; border-radius: 10px; padding: 20px; margin-bottom: 18px; }
+    form { display: grid; gap: 10px; margin-top: 14px; }
+    label { display: grid; gap: 5px; }
+    input, select, button { box-sizing: border-box; padding: 10px; border-radius: 6px; border: 1px solid #414653; background: #111319; color: #eee; font: inherit; }
+    button { border: 0; background: #3b82f6; font-weight: 650; cursor: pointer; }
+    button:disabled { opacity: .55; cursor: not-allowed; }
+    .character { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 12px 0; border-bottom: 1px solid #353945; }
+    .muted { color: #aab1bf; }
+    #mensagem { min-height: 1.5em; color: #ffd46b; }
+    .account { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+    @media (max-width: 560px) { header, .account { align-items: flex-start; flex-direction: column; } }
+  </style>
+</head>
+<body>
+  <header><strong>GrimReap</strong><span>Etapa 2 de 3 — seleção de personagem</span></header>
+  <main>
+    <h1>Escolha seu personagem</h1>
+    <p class="muted">Selecione um personagem existente ou crie um novo. Cada conta pode ter até cinco personagens.</p>
+    <p id="mensagem" role="status" aria-live="polite"></p>
+    <section>
+      <div class="account">
+        <div>
+          <h2 id="nome-conta">Conta</h2>
+          <p id="email-conta" class="muted"></p>
+        </div>
+        <button id="logout" type="button">Sair</button>
+      </div>
+      <h2>Personagens</h2>
+      <div id="personagens"></div>
+      <form id="criar-personagem">
+        <h3>Criar personagem</h3>
+        <label>Nome (3–16 letras, números, espaços ou _)<input name="nome" minlength="3" maxlength="16" pattern="[A-Za-z0-9_ ]{3,16}" required></label>
+        <label>Classe<select name="classeId" required></select></label>
+        <button type="submit">Criar e selecionar personagem</button>
+      </form>
+    </section>
+  </main>
+  <script type="module" src="./personagens.js"></script>
+</body>
+</html>
